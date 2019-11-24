@@ -1,0 +1,181 @@
+C:\Users\X250\source\repos\ihc\ihc\obj\Debug\ihc.csprojAssemblyReference.cache
+C:\Users\X250\source\repos\ihc\ihc\obj\Debug\ihc.Form1.resources
+C:\Users\X250\source\repos\ihc\ihc\obj\Debug\ihc.Form3.resources
+C:\Users\X250\source\repos\ihc\ihc\obj\Debug\ihc.Properties.Resources.resources
+C:\Users\X250\source\repos\ihc\ihc\obj\Debug\ihc.csproj.GenerateResource.cache
+C:\Users\X250\source\repos\ihc\ihc\obj\Debug\ihc.csproj.CoreCompileInputs.cache
+C:\Users\X250\source\repos\ihc\ihc\bin\Debug\ihc.exe.config
+C:\Users\X250\source\repos\ihc\ihc\bin\Debug\ihc.exe
+C:\Users\X250\source\repos\ihc\ihc\bin\Debug\ihc.pdb
+C:\Users\X250\source\repos\ihc\ihc\obj\Debug\ihc.exe
+C:\Users\X250\source\repos\ihc\ihc\obj\Debug\ihc.pdb
+C:\Users\X250\source\repos\ihc\ihc\obj\Debug\ihc.Form2.resources
+C:\Users\X250\source\repos\ihc\ihc\obj\Debug\ihc.Form4.resources
+C:\Users\X250\source\repos\ihc\ihc\obj\Debug\ihc.Form5.resources
+C:\Users\X250\source\repos\ihc\ihc\obj\Debug\ihc.Form6.resources
+C:\Users\X250\source\repos\ihc\ihc\obj\Debug\ihc.Form7.resources
+C:\Users\X250\source\repos\ihc\ihc\obj\Debug\ihc.Form8.resources
+C:\Users\andre\Desktop\ihc\ihc\bin\Debug\ihc.exe.config
+C:\Users\andre\Desktop\ihc\ihc\bin\Debug\ihc.exe
+C:\Users\andre\Desktop\ihc\ihc\bin\Debug\ihc.pdb
+C:\Users\andre\Desktop\ihc\ihc\obj\Debug\ihc.csprojAssemblyReference.cache
+C:\Users\andre\Desktop\ihc\ihc\obj\Debug\ihc.Form1.resources
+C:\Users\andre\Desktop\ihc\ihc\obj\Debug\ihc.Form2.resources
+C:\Users\andre\Desktop\ihc\ihc\obj\Debug\ihc.Form3.resources
+C:\Users\andre\Desktop\ihc\ihc\obj\Debug\ihc.Form4.resources
+C:\Users\andre\Desktop\ihc\ihc\obj\Debug\ihc.Form5.resources
+C:\Users\andre\Desktop\ihc\ihc\obj\Debug\ihc.Form6.resources
+C:\Users\andre\Desktop\ihc\ihc\obj\Debug\ihc.Form7.resources
+C:\Users\andre\Desktop\ihc\ihc\obj\Debug\ihc.Form8.resources
+C:\Users\andre\Desktop\ihc\ihc\obj\Debug\ihc.Properties.Resources.resources
+C:\Users\andre\Desktop\ihc\ihc\obj\Debug\ihc.csproj.GenerateResource.cache
+C:\Users\andre\Desktop\ihc\ihc\obj\Debug\ihc.exe
+C:\Users\andre\Desktop\ihc\ihc\obj\Debug\ihc.pdb
+C:\Users\andre\Desktop\ihc\ihc\obj\Debug\ihc.Form10.resources
+C:\Users\andre\Desktop\ihc\ihc\obj\Debug\ihc.Form11.resources
+C:\Users\andre\Desktop\ihc\ihc\obj\Debug\ihc.Form9.resources
+C:\Users\andre\Desktop\ihc\ihc\obj\Debug\ihc.Form12.resources
+C:\Users\andre\Desktop\ihc\ihc\obj\Debug\ihc.Form13.resources
+C:\Users\andre\Desktop\ihc\ihc\obj\Debug\ihc.Form14.resources
+C:\Users\andre\Desktop\ihc\ihc\obj\Debug\ihc.Form15.resources
+C:\Users\Y720\Documents\7sem\Ihc\proyecto\ihc\ihc\bin\Debug\ihc.exe.config
+C:\Users\Y720\Documents\7sem\Ihc\proyecto\ihc\ihc\bin\Debug\ihc.exe
+C:\Users\Y720\Documents\7sem\Ihc\proyecto\ihc\ihc\bin\Debug\ihc.pdb
+C:\Users\Y720\Documents\7sem\Ihc\proyecto\ihc\ihc\obj\Debug\ihc.csprojAssemblyReference.cache
+C:\Users\Y720\Documents\7sem\Ihc\proyecto\ihc\ihc\obj\Debug\ihc.Form1.resources
+C:\Users\Y720\Documents\7sem\Ihc\proyecto\ihc\ihc\obj\Debug\ihc.Form10.resources
+C:\Users\Y720\Documents\7sem\Ihc\proyecto\ihc\ihc\obj\Debug\ihc.Form11.resources
+C:\Users\Y720\Documents\7sem\Ihc\proyecto\ihc\ihc\obj\Debug\ihc.Form12.resources
+C:\Users\Y720\Documents\7sem\Ihc\proyecto\ihc\ihc\obj\Debug\ihc.Form13.resources
+C:\Users\Y720\Documents\7sem\Ihc\proyecto\ihc\ihc\obj\Debug\ihc.Form14.resources
+C:\Users\Y720\Documents\7sem\Ihc\proyecto\ihc\ihc\obj\Debug\ihc.Form15.resources
+C:\Users\Y720\Documents\7sem\Ihc\proyecto\ihc\ihc\obj\Debug\ihc.Form2.resources
+C:\Users\Y720\Documents\7sem\Ihc\proyecto\ihc\ihc\obj\Debug\ihc.Form3.resources
+C:\Users\Y720\Documents\7sem\Ihc\proyecto\ihc\ihc\obj\Debug\ihc.Form4.resources
+C:\Users\Y720\Documents\7sem\Ihc\proyecto\ihc\ihc\obj\Debug\ihc.Form5.resources
+C:\Users\Y720\Documents\7sem\Ihc\proyecto\ihc\ihc\obj\Debug\ihc.Form6.resources
+C:\Users\Y720\Documents\7sem\Ihc\proyecto\ihc\ihc\obj\Debug\ihc.Form7.resources
+C:\Users\Y720\Documents\7sem\Ihc\proyecto\ihc\ihc\obj\Debug\ihc.Form8.resources
+C:\Users\Y720\Documents\7sem\Ihc\proyecto\ihc\ihc\obj\Debug\ihc.Form9.resources
+C:\Users\Y720\Documents\7sem\Ihc\proyecto\ihc\ihc\obj\Debug\ihc.Properties.Resources.resources
+C:\Users\Y720\Documents\7sem\Ihc\proyecto\ihc\ihc\obj\Debug\ihc.csproj.GenerateResource.cache
+C:\Users\Y720\Documents\7sem\Ihc\proyecto\ihc\ihc\obj\Debug\ihc.exe
+C:\Users\Y720\Documents\7sem\Ihc\proyecto\ihc\ihc\obj\Debug\ihc.pdb
+C:\Users\Y720\Documents\7sem\Ihc\proyecto\ihc\ihc\bin\Debug\bd.accdb
+C:\Users\Y720\Documents\7sem\Ihc\proyecto\ihc\ihc\obj\Debug\ihc.Form16.resources
+C:\Users\Y720\Documents\7sem\Ihc\proyecto\ihc\ihc\obj\Debug\ihc.Form17.resources
+C:\Users\Y720\Documents\7sem\Ihc\proyecto\ihc\ihc\obj\Debug\ihc.Form18.resources
+C:\Users\Y720\Documents\7sem\Ihc\proyecto\ihc\ihc\obj\Debug\ihc.Form19.resources
+C:\Users\Y720\Documents\7sem\Ihc\proyecto\ihc\ihc\obj\Debug\ihc.Form20.resources
+C:\Users\Y720\Documents\7sem\Ihc\proyecto\ihc\ihc\obj\Debug\ihc.Form21.resources
+C:\Users\Y720\Documents\7sem\Ihc\proyecto\ihc\ihc\obj\Debug\ihc.Form22.resources
+C:\Users\Y720\Documents\7sem\Ihc\proyecto\ihc\ihc\obj\Debug\ihc.Form23.resources
+C:\Users\Y720\Documents\7sem\Ihc\proyecto\ihc\ihc\obj\Debug\ihc.Form24.resources
+C:\Users\Y720\Documents\7sem\Ihc\proyecto\ihc\ihc\obj\Debug\ihc.Form25.resources
+C:\Users\Y720\Documents\7sem\Ihc\proyecto\ihc\ihc\obj\Debug\ihc.Form26.resources
+C:\Users\X250\source\repos\avance 22-11-2019\ihc\ihc\bin\Debug\bd.accdb
+C:\Users\X250\source\repos\avance 22-11-2019\ihc\ihc\bin\Debug\ihc.exe.config
+C:\Users\X250\source\repos\avance 22-11-2019\ihc\ihc\bin\Debug\ihc.exe
+C:\Users\X250\source\repos\avance 22-11-2019\ihc\ihc\bin\Debug\ihc.pdb
+C:\Users\X250\source\repos\avance 22-11-2019\ihc\ihc\obj\Debug\ihc.csprojAssemblyReference.cache
+C:\Users\X250\source\repos\avance 22-11-2019\ihc\ihc\obj\Debug\ihc.Form1.resources
+C:\Users\X250\source\repos\avance 22-11-2019\ihc\ihc\obj\Debug\ihc.Form10.resources
+C:\Users\X250\source\repos\avance 22-11-2019\ihc\ihc\obj\Debug\ihc.Form11.resources
+C:\Users\X250\source\repos\avance 22-11-2019\ihc\ihc\obj\Debug\ihc.Form12.resources
+C:\Users\X250\source\repos\avance 22-11-2019\ihc\ihc\obj\Debug\ihc.Form13.resources
+C:\Users\X250\source\repos\avance 22-11-2019\ihc\ihc\obj\Debug\ihc.Form14.resources
+C:\Users\X250\source\repos\avance 22-11-2019\ihc\ihc\obj\Debug\ihc.Form15.resources
+C:\Users\X250\source\repos\avance 22-11-2019\ihc\ihc\obj\Debug\ihc.Form16.resources
+C:\Users\X250\source\repos\avance 22-11-2019\ihc\ihc\obj\Debug\ihc.Form18.resources
+C:\Users\X250\source\repos\avance 22-11-2019\ihc\ihc\obj\Debug\ihc.Form19.resources
+C:\Users\X250\source\repos\avance 22-11-2019\ihc\ihc\obj\Debug\ihc.Form2.resources
+C:\Users\X250\source\repos\avance 22-11-2019\ihc\ihc\obj\Debug\ihc.Form20.resources
+C:\Users\X250\source\repos\avance 22-11-2019\ihc\ihc\obj\Debug\ihc.Form21.resources
+C:\Users\X250\source\repos\avance 22-11-2019\ihc\ihc\obj\Debug\ihc.Form22.resources
+C:\Users\X250\source\repos\avance 22-11-2019\ihc\ihc\obj\Debug\ihc.Form23.resources
+C:\Users\X250\source\repos\avance 22-11-2019\ihc\ihc\obj\Debug\ihc.Form24.resources
+C:\Users\X250\source\repos\avance 22-11-2019\ihc\ihc\obj\Debug\ihc.Form25.resources
+C:\Users\X250\source\repos\avance 22-11-2019\ihc\ihc\obj\Debug\ihc.Form26.resources
+C:\Users\X250\source\repos\avance 22-11-2019\ihc\ihc\obj\Debug\ihc.Form3.resources
+C:\Users\X250\source\repos\avance 22-11-2019\ihc\ihc\obj\Debug\ihc.Form4.resources
+C:\Users\X250\source\repos\avance 22-11-2019\ihc\ihc\obj\Debug\ihc.Form5.resources
+C:\Users\X250\source\repos\avance 22-11-2019\ihc\ihc\obj\Debug\ihc.Form6.resources
+C:\Users\X250\source\repos\avance 22-11-2019\ihc\ihc\obj\Debug\ihc.Form7.resources
+C:\Users\X250\source\repos\avance 22-11-2019\ihc\ihc\obj\Debug\ihc.Form8.resources
+C:\Users\X250\source\repos\avance 22-11-2019\ihc\ihc\obj\Debug\ihc.Form9.resources
+C:\Users\X250\source\repos\avance 22-11-2019\ihc\ihc\obj\Debug\ihc.Properties.Resources.resources
+C:\Users\X250\source\repos\avance 22-11-2019\ihc\ihc\obj\Debug\ihc.csproj.GenerateResource.cache
+C:\Users\X250\source\repos\avance 22-11-2019\ihc\ihc\obj\Debug\ihc.csproj.CoreCompileInputs.cache
+C:\Users\X250\source\repos\avance 22-11-2019\ihc\ihc\obj\Debug\ihc.exe
+C:\Users\X250\source\repos\avance 22-11-2019\ihc\ihc\obj\Debug\ihc.pdb
+C:\Users\X250\source\repos\avance 22-11-2019\ihc\ihc\bin\Debug\ihc.exe.manifest
+C:\Users\X250\source\repos\avance 22-11-2019\ihc\ihc\bin\Debug\ihc.application
+C:\Users\X250\source\repos\avance 22-11-2019\ihc\ihc\obj\Debug\ihc.exe.manifest
+C:\Users\X250\source\repos\avance 22-11-2019\ihc\ihc\obj\Debug\ihc.application
+C:\Users\X250\source\repos\avance 22-11-2019\ihc\ihc\obj\Debug\ihc.ventanaNuevoEquipo.resources
+C:\Users\X250\source\repos\avance 22-11-2019\ihc\ihc\obj\Debug\ihc.ventanaEditarEquipo.resources
+C:\Users\X250\source\repos\avance 22-11-2019\ihc\ihc\obj\Debug\ihc.ventanaNuevoMantenimiento.resources
+C:\Users\X250\source\repos\avance 22-11-2019\ihc\ihc\obj\Debug\ihc.ventanaEditarMantenimiento.resources
+C:\Users\X250\source\repos\avance 22-11-2019\ihc\ihc\obj\Debug\ihc.ventanaEditarRefaccion.resources
+C:\Users\X250\source\repos\avance 22-11-2019\ihc\ihc\obj\Debug\ihc.ventanaEditarServicio.resources
+C:\Users\X250\source\repos\avance 22-11-2019\ihc\ihc\obj\Debug\ihc.ventanaNuevaRefaccion.resources
+C:\Users\X250\source\repos\avance 22-11-2019\ihc\ihc\obj\Debug\ihc.ventanaNuevoServicio.resources
+C:\Users\X250\source\repos\avance 22-11-2019\ihc\ihc\obj\Debug\ihc.ventanaReservaciones.resources
+C:\Users\X250\source\repos\avance 22-11-2019\ihc\ihc\obj\Debug\ihc.ventanaEditarReservacion.resources
+C:\Users\X250\source\repos\avance 22-11-2019\ihc\ihc\obj\Debug\ihc.ventanaNuevaReservacion.resources
+C:\Users\X250\source\repos\avance 22-11-2019\ihc\ihc\obj\Debug\ihc.ventanaBajasyMovimientos.resources
+C:\Users\X250\source\repos\avance 22-11-2019\ihc\ihc\obj\Debug\ihc.ventanaEditarBajasyMovimientos.resources
+C:\Users\X250\source\repos\avance 22-11-2019\ihc\ihc\obj\Debug\ihc.ventanaNuevoBajasyMovimientos.resources
+C:\Users\X250\Desktop\abrirIHC\ihc\ihc\bin\Debug\bd.accdb
+C:\Users\X250\Desktop\abrirIHC\ihc\ihc\bin\Debug\ihc.exe.config
+C:\Users\X250\Desktop\abrirIHC\ihc\ihc\bin\Debug\ihc.exe.manifest
+C:\Users\X250\Desktop\abrirIHC\ihc\ihc\bin\Debug\ihc.application
+C:\Users\X250\Desktop\abrirIHC\ihc\ihc\bin\Debug\ihc.exe
+C:\Users\X250\Desktop\abrirIHC\ihc\ihc\bin\Debug\ihc.pdb
+C:\Users\X250\Desktop\abrirIHC\ihc\ihc\obj\Debug\ihc.csprojAssemblyReference.cache
+C:\Users\X250\Desktop\abrirIHC\ihc\ihc\obj\Debug\ihc.Form1.resources
+C:\Users\X250\Desktop\abrirIHC\ihc\ihc\obj\Debug\ihc.Form10.resources
+C:\Users\X250\Desktop\abrirIHC\ihc\ihc\obj\Debug\ihc.Form11.resources
+C:\Users\X250\Desktop\abrirIHC\ihc\ihc\obj\Debug\ihc.Form12.resources
+C:\Users\X250\Desktop\abrirIHC\ihc\ihc\obj\Debug\ihc.Form13.resources
+C:\Users\X250\Desktop\abrirIHC\ihc\ihc\obj\Debug\ihc.Form14.resources
+C:\Users\X250\Desktop\abrirIHC\ihc\ihc\obj\Debug\ihc.Form15.resources
+C:\Users\X250\Desktop\abrirIHC\ihc\ihc\obj\Debug\ihc.Form16.resources
+C:\Users\X250\Desktop\abrirIHC\ihc\ihc\obj\Debug\ihc.ventanaBajasyMovimientos.resources
+C:\Users\X250\Desktop\abrirIHC\ihc\ihc\obj\Debug\ihc.ventanaEditarBajasyMovimientos.resources
+C:\Users\X250\Desktop\abrirIHC\ihc\ihc\obj\Debug\ihc.ventanaEditarReservacion.resources
+C:\Users\X250\Desktop\abrirIHC\ihc\ihc\obj\Debug\ihc.ventanaNuevaReservacion.resources
+C:\Users\X250\Desktop\abrirIHC\ihc\ihc\obj\Debug\ihc.ventanaNuevoBajasyMovimientos.resources
+C:\Users\X250\Desktop\abrirIHC\ihc\ihc\obj\Debug\ihc.ventanaReservaciones.resources
+C:\Users\X250\Desktop\abrirIHC\ihc\ihc\obj\Debug\ihc.Form18.resources
+C:\Users\X250\Desktop\abrirIHC\ihc\ihc\obj\Debug\ihc.Form19.resources
+C:\Users\X250\Desktop\abrirIHC\ihc\ihc\obj\Debug\ihc.Form2.resources
+C:\Users\X250\Desktop\abrirIHC\ihc\ihc\obj\Debug\ihc.Form20.resources
+C:\Users\X250\Desktop\abrirIHC\ihc\ihc\obj\Debug\ihc.Form21.resources
+C:\Users\X250\Desktop\abrirIHC\ihc\ihc\obj\Debug\ihc.Form22.resources
+C:\Users\X250\Desktop\abrirIHC\ihc\ihc\obj\Debug\ihc.Form23.resources
+C:\Users\X250\Desktop\abrirIHC\ihc\ihc\obj\Debug\ihc.Form24.resources
+C:\Users\X250\Desktop\abrirIHC\ihc\ihc\obj\Debug\ihc.Form25.resources
+C:\Users\X250\Desktop\abrirIHC\ihc\ihc\obj\Debug\ihc.Form26.resources
+C:\Users\X250\Desktop\abrirIHC\ihc\ihc\obj\Debug\ihc.Form3.resources
+C:\Users\X250\Desktop\abrirIHC\ihc\ihc\obj\Debug\ihc.Form4.resources
+C:\Users\X250\Desktop\abrirIHC\ihc\ihc\obj\Debug\ihc.Form5.resources
+C:\Users\X250\Desktop\abrirIHC\ihc\ihc\obj\Debug\ihc.Form6.resources
+C:\Users\X250\Desktop\abrirIHC\ihc\ihc\obj\Debug\ihc.Form7.resources
+C:\Users\X250\Desktop\abrirIHC\ihc\ihc\obj\Debug\ihc.Form8.resources
+C:\Users\X250\Desktop\abrirIHC\ihc\ihc\obj\Debug\ihc.Form9.resources
+C:\Users\X250\Desktop\abrirIHC\ihc\ihc\obj\Debug\ihc.Properties.Resources.resources
+C:\Users\X250\Desktop\abrirIHC\ihc\ihc\obj\Debug\ihc.ventanaEditarEquipo.resources
+C:\Users\X250\Desktop\abrirIHC\ihc\ihc\obj\Debug\ihc.ventanaEditarMantenimiento.resources
+C:\Users\X250\Desktop\abrirIHC\ihc\ihc\obj\Debug\ihc.ventanaEditarRefaccion.resources
+C:\Users\X250\Desktop\abrirIHC\ihc\ihc\obj\Debug\ihc.ventanaEditarServicio.resources
+C:\Users\X250\Desktop\abrirIHC\ihc\ihc\obj\Debug\ihc.ventanaNuevaRefaccion.resources
+C:\Users\X250\Desktop\abrirIHC\ihc\ihc\obj\Debug\ihc.ventanaNuevoEquipo.resources
+C:\Users\X250\Desktop\abrirIHC\ihc\ihc\obj\Debug\ihc.ventanaNuevoMantenimiento.resources
+C:\Users\X250\Desktop\abrirIHC\ihc\ihc\obj\Debug\ihc.ventanaNuevoServicio.resources
+C:\Users\X250\Desktop\abrirIHC\ihc\ihc\obj\Debug\ihc.csproj.GenerateResource.cache
+C:\Users\X250\Desktop\abrirIHC\ihc\ihc\obj\Debug\ihc.csproj.CoreCompileInputs.cache
+C:\Users\X250\Desktop\abrirIHC\ihc\ihc\obj\Debug\ihc.exe.manifest
+C:\Users\X250\Desktop\abrirIHC\ihc\ihc\obj\Debug\ihc.application
+C:\Users\X250\Desktop\abrirIHC\ihc\ihc\obj\Debug\ihc.exe
+C:\Users\X250\Desktop\abrirIHC\ihc\ihc\obj\Debug\ihc.pdb
