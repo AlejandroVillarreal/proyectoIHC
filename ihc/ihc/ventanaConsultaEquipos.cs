@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ihc
 {
-    public partial class Form2 : Form
+    public partial class ventanaConsultaEquipos : Form
     {
-        public Form2()
+        public ventanaConsultaEquipos()
         {
             InitializeComponent();
         }
@@ -27,7 +27,7 @@ namespace ihc
         private void pictureBox7_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form3 form3 = new Form3();
+            ventanaMenuPrincipal form3 = new ventanaMenuPrincipal();
             form3.Show();
         }
 
@@ -53,6 +53,17 @@ namespace ihc
         {
             ventanaEditarEquipo ventanaEditarEquipo = new ventanaEditarEquipo();
             ventanaEditarEquipo.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            switch (MessageBox.Show("Desea Eliminar el Registro?", "Confirmacion", MessageBoxButtons.YesNoCancel))
+            {
+                case DialogResult.Yes: MessageBox.Show("Registro Eliminado") ; break;
+                case DialogResult.No: ; break;
+                case DialogResult.Cancel: ; break;
+            }
+
         }
     }
 }

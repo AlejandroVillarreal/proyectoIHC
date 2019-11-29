@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ihc
 {
-    public partial class Form3 : Form
+    public partial class ventanaMenuPrincipal : Form
     {
-        public Form3()
+        public ventanaMenuPrincipal()
         {
             InitializeComponent();
         }
@@ -25,7 +25,7 @@ namespace ihc
         private void AdministracionEquiposToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form2 form2 = new Form2();
+            ventanaConsultaEquipos form2 = new ventanaConsultaEquipos();
             form2.Show();
 
         }
@@ -53,7 +53,7 @@ namespace ihc
 
         private void PictureBox2_Click(object sender, EventArgs e)
         {
-            this.Hide();
+           
             Form21 form21 = new Form21();
             form21.Show();
         }
@@ -74,7 +74,6 @@ namespace ihc
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
-            this.Hide();
             Form9 form9 = new Form9();
             form9.Show();
 
