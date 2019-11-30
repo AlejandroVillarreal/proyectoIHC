@@ -32,16 +32,12 @@ namespace ihc
 
         private void RealizarRentaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Form4 form4 = new Form4();
-            form4.Show();
+            
         }
 
         private void AdministrarClientesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Form5 form5 = new Form5();
-            form5.Show();
+           
         }
 
         private void PictureBox1_Click(object sender, EventArgs e)
@@ -67,9 +63,9 @@ namespace ihc
 
         private void PictureBox3_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Form7 form7 = new Form7();
-            form7.Show();
+            
+            ventanaConsultaUsuario ventanaConsultaUsuario = new ventanaConsultaUsuario();
+            ventanaConsultaUsuario.Show();
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
@@ -87,22 +83,22 @@ namespace ihc
 
         private void pictureBox7_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Form11 form11 = new Form11();
+            
+            ventanaProcesos form11 = new ventanaProcesos();
             form11.Show();
         }
 
         private void cerrarSesionToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form1 form1 = new Form1();
+            ventanaLogin form1 = new ventanaLogin();
             form1.Show();
         }
 
         private void pictureBox8_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form1 form1 = new Form1();
+            ventanaLogin form1 = new ventanaLogin();
             form1.Show();
         }
     }

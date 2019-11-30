@@ -86,7 +86,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.label3.Location = new System.Drawing.Point(1124, 695);
+            this.label3.Location = new System.Drawing.Point(802, 620);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(83, 24);
@@ -134,7 +134,7 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.label7.Location = new System.Drawing.Point(674, 620);
+            this.label7.Location = new System.Drawing.Point(471, 620);
             this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(89, 24);
@@ -171,7 +171,7 @@
             // 
             this.pictureBox7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox7.Image = global::ihc.Properties.Resources.planificacion;
-            this.pictureBox7.Location = new System.Drawing.Point(640, 443);
+            this.pictureBox7.Location = new System.Drawing.Point(446, 443);
             this.pictureBox7.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(150, 162);
@@ -223,7 +223,7 @@
             // 
             this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox3.Image = global::ihc.Properties.Resources.hombre_de_negocios;
-            this.pictureBox3.Location = new System.Drawing.Point(1084, 518);
+            this.pictureBox3.Location = new System.Drawing.Point(772, 443);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(150, 162);
@@ -266,13 +266,13 @@
             // 
             this.clientesTableAdapter2.ClearBeforeFill = true;
             // 
-            // Form3
+            // ventanaMenuPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1240, 694);
+            this.ClientSize = new System.Drawing.Size(1368, 744);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.pictureBox8);
             this.Controls.Add(this.label7);
@@ -291,7 +291,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
-            this.Name = "Form3";
+            this.Name = "ventanaMenuPrincipal";
             this.Text = "Menú Principal";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();

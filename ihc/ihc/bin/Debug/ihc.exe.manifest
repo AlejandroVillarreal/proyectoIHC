@@ -42,24 +42,24 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ihc.exe" size="8371160">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ihc.exe" size="8487384">
       <assemblyIdentity name="ihc" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Xc5I5oMJCBTxmCN5MbO5WLcJCsfdEN+JiZrHtsNU6jo=</dsig:DigestValue>
+        <dsig:DigestValue>ul8ZZhX0hO+GUz19cRuJ2UR4ryT0Fc8IRJ8xa6lSwZw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="bd.accdb" size="1454080">
+  <file name="bd.accdb" size="1470464">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>4tPzydkdkAl6yKDYYUuRRPI3nai1xdjnAirawO1dV8s=</dsig:DigestValue>
+      <dsig:DigestValue>KuRfU3yL29ulCKe1Oh8opZexNsT4ukjWP3I2YL8zf8s=</dsig:DigestValue>
     </hash>
   </file>
   <file name="ihc.exe.config" size="477">

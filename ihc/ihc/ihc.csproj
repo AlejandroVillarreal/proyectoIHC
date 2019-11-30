@@ -114,6 +114,26 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>bdDataSet15.xsd</DependentUpon>
     </Compile>
+    <Compile Include="bdDataSet16.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bdDataSet16.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="bdDataSet17.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bdDataSet17.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="bdDataSet18.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bdDataSet18.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="bdDataSet19.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bdDataSet19.xsd</DependentUpon>
+    </Compile>
     <Compile Include="bdDataSet2.cs">
       <DependentUpon>bdDataSet2.xsd</DependentUpon>
     </Compile>
@@ -121,6 +141,16 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>bdDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="bdDataSet20.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bdDataSet20.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="bdDataSet21.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bdDataSet21.xsd</DependentUpon>
     </Compile>
     <Compile Include="bdDataSet3.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -157,11 +187,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>bdDataSet9.xsd</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="ventanaLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="ventanaLogin.Designer.cs">
+      <DependentUpon>ventanaLogin.cs</DependentUpon>
     </Compile>
     <Compile Include="Form10.cs">
       <SubType>Form</SubType>
@@ -169,11 +199,53 @@
     <Compile Include="Form10.Designer.cs">
       <DependentUpon>Form10.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form11.cs">
+    <Compile Include="ventanaEditarEquipoExterno.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form11.Designer.cs">
-      <DependentUpon>Form11.cs</DependentUpon>
+    <Compile Include="ventanaEditarEquipoExterno.Designer.cs">
+      <DependentUpon>ventanaEditarEquipoExterno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ventanaEditarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaEditarUsuario.Designer.cs">
+      <DependentUpon>ventanaEditarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ventanaExportarInformacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaExportarInformacion.Designer.cs">
+      <DependentUpon>ventanaExportarInformacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ventanaImportarInformacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaImportarInformacion.Designer.cs">
+      <DependentUpon>ventanaImportarInformacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ventanaNota.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaNota.Designer.cs">
+      <DependentUpon>ventanaNota.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ventanaNuevoEquipoExterno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaNuevoEquipoExterno.Designer.cs">
+      <DependentUpon>ventanaNuevoEquipoExterno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ventanaNuevoUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaNuevoUsuario.Designer.cs">
+      <DependentUpon>ventanaNuevoUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ventanaProcesos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaProcesos.Designer.cs">
+      <DependentUpon>ventanaProcesos.cs</DependentUpon>
     </Compile>
     <Compile Include="Form12.cs">
       <SubType>Form</SubType>
@@ -199,11 +271,11 @@
     <Compile Include="Form15.Designer.cs">
       <DependentUpon>Form15.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form16.cs">
+    <Compile Include="ventanaMantenimiento.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form16.Designer.cs">
-      <DependentUpon>Form16.cs</DependentUpon>
+    <Compile Include="ventanaMantenimiento.Designer.cs">
+      <DependentUpon>ventanaMantenimiento.cs</DependentUpon>
     </Compile>
     <Compile Include="ventanaAditamentos.cs">
       <SubType>Form</SubType>
@@ -349,11 +421,11 @@
     <Compile Include="Form18.Designer.cs">
       <DependentUpon>Form18.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form19.cs">
+    <Compile Include="ventanaEquiposExternos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form19.Designer.cs">
-      <DependentUpon>Form19.cs</DependentUpon>
+    <Compile Include="ventanaEquiposExternos.Designer.cs">
+      <DependentUpon>ventanaEquiposExternos.cs</DependentUpon>
     </Compile>
     <Compile Include="ventanaConsultaEquipos.cs">
       <SubType>Form</SubType>
@@ -391,11 +463,11 @@
     <Compile Include="Form24.Designer.cs">
       <DependentUpon>Form24.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form25.cs">
+    <Compile Include="ventanaConsultarUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form25.Designer.cs">
-      <DependentUpon>Form25.cs</DependentUpon>
+    <Compile Include="ventanaConsultarUsuario.Designer.cs">
+      <DependentUpon>ventanaConsultarUsuario.cs</DependentUpon>
     </Compile>
     <Compile Include="Form26.cs">
       <SubType>Form</SubType>
@@ -409,29 +481,17 @@
     <Compile Include="ventanaMenuPrincipal.Designer.cs">
       <DependentUpon>ventanaMenuPrincipal.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form4.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form4.Designer.cs">
-      <DependentUpon>Form4.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form5.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form5.Designer.cs">
-      <DependentUpon>Form5.cs</DependentUpon>
-    </Compile>
     <Compile Include="ventanaEquipos.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ventanaEquipos.Designer.cs">
       <DependentUpon>ventanaEquipos.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form7.cs">
+    <Compile Include="ventanaUsuarios.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form7.Designer.cs">
-      <DependentUpon>Form7.cs</DependentUpon>
+    <Compile Include="ventanaUsuarios.Designer.cs">
+      <DependentUpon>ventanaUsuarios.cs</DependentUpon>
     </Compile>
     <Compile Include="Form8.cs">
       <SubType>Form</SubType>
@@ -495,20 +555,47 @@
     <Compile Include="ventanaNuevoServicio.Designer.cs">
       <DependentUpon>ventanaNuevoServicio.cs</DependentUpon>
     </Compile>
+    <Compile Include="ventanaRespaldarInformacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaRespaldarInformacion.Designer.cs">
+      <DependentUpon>ventanaRespaldarInformacion.cs</DependentUpon>
+    </Compile>
     <Compile Include="ventanaSeleccionNuevoEquipo.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ventanaSeleccionNuevoEquipo.Designer.cs">
       <DependentUpon>ventanaSeleccionNuevoEquipo.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="ventanaLogin.resx">
+      <DependentUpon>ventanaLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form10.resx">
       <DependentUpon>Form10.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form11.resx">
-      <DependentUpon>Form11.cs</DependentUpon>
+    <EmbeddedResource Include="ventanaEditarEquipoExterno.resx">
+      <DependentUpon>ventanaEditarEquipoExterno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ventanaEditarUsuario.resx">
+      <DependentUpon>ventanaEditarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ventanaExportarInformacion.resx">
+      <DependentUpon>ventanaExportarInformacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ventanaImportarInformacion.resx">
+      <DependentUpon>ventanaImportarInformacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ventanaNota.resx">
+      <DependentUpon>ventanaNota.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ventanaNuevoEquipoExterno.resx">
+      <DependentUpon>ventanaNuevoEquipoExterno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ventanaNuevoUsuario.resx">
+      <DependentUpon>ventanaNuevoUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ventanaProcesos.resx">
+      <DependentUpon>ventanaProcesos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form12.resx">
       <DependentUpon>Form12.cs</DependentUpon>
@@ -522,8 +609,8 @@
     <EmbeddedResource Include="Form15.resx">
       <DependentUpon>Form15.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form16.resx">
-      <DependentUpon>Form16.cs</DependentUpon>
+    <EmbeddedResource Include="ventanaMantenimiento.resx">
+      <DependentUpon>ventanaMantenimiento.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ventanaAditamentos.resx">
       <DependentUpon>ventanaAditamentos.cs</DependentUpon>
@@ -597,8 +684,8 @@
     <EmbeddedResource Include="Form18.resx">
       <DependentUpon>Form18.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form19.resx">
-      <DependentUpon>Form19.cs</DependentUpon>
+    <EmbeddedResource Include="ventanaEquiposExternos.resx">
+      <DependentUpon>ventanaEquiposExternos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ventanaConsultaEquipos.resx">
       <DependentUpon>ventanaConsultaEquipos.cs</DependentUpon>
@@ -618,8 +705,8 @@
     <EmbeddedResource Include="Form24.resx">
       <DependentUpon>Form24.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form25.resx">
-      <DependentUpon>Form25.cs</DependentUpon>
+    <EmbeddedResource Include="ventanaConsultarUsuario.resx">
+      <DependentUpon>ventanaConsultarUsuario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form26.resx">
       <DependentUpon>Form26.cs</DependentUpon>
@@ -627,17 +714,11 @@
     <EmbeddedResource Include="ventanaMenuPrincipal.resx">
       <DependentUpon>ventanaMenuPrincipal.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form4.resx">
-      <DependentUpon>Form4.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form5.resx">
-      <DependentUpon>Form5.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="ventanaEquipos.resx">
       <DependentUpon>ventanaEquipos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form7.resx">
-      <DependentUpon>Form7.cs</DependentUpon>
+    <EmbeddedResource Include="ventanaUsuarios.resx">
+      <DependentUpon>ventanaUsuarios.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form8.resx">
       <DependentUpon>Form8.cs</DependentUpon>
@@ -678,6 +759,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ventanaNuevoServicio.resx">
       <DependentUpon>ventanaNuevoServicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ventanaRespaldarInformacion.resx">
+      <DependentUpon>ventanaRespaldarInformacion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ventanaSeleccionNuevoEquipo.resx">
       <DependentUpon>ventanaSeleccionNuevoEquipo.cs</DependentUpon>
@@ -770,6 +854,50 @@
     <None Include="bdDataSet15.xss">
       <DependentUpon>bdDataSet15.xsd</DependentUpon>
     </None>
+    <None Include="bdDataSet16.xsc">
+      <DependentUpon>bdDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="bdDataSet16.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>bdDataSet16.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bdDataSet16.xss">
+      <DependentUpon>bdDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="bdDataSet17.xsc">
+      <DependentUpon>bdDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="bdDataSet17.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>bdDataSet17.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bdDataSet17.xss">
+      <DependentUpon>bdDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="bdDataSet18.xsc">
+      <DependentUpon>bdDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="bdDataSet18.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>bdDataSet18.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bdDataSet18.xss">
+      <DependentUpon>bdDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="bdDataSet19.xsc">
+      <DependentUpon>bdDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="bdDataSet19.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>bdDataSet19.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bdDataSet19.xss">
+      <DependentUpon>bdDataSet19.xsd</DependentUpon>
+    </None>
     <None Include="bdDataSet2.xsc">
       <DependentUpon>bdDataSet2.xsd</DependentUpon>
     </None>
@@ -780,6 +908,28 @@
     </None>
     <None Include="bdDataSet2.xss">
       <DependentUpon>bdDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="bdDataSet20.xsc">
+      <DependentUpon>bdDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="bdDataSet20.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>bdDataSet20.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bdDataSet20.xss">
+      <DependentUpon>bdDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="bdDataSet21.xsc">
+      <DependentUpon>bdDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="bdDataSet21.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>bdDataSet21.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bdDataSet21.xss">
+      <DependentUpon>bdDataSet21.xsd</DependentUpon>
     </None>
     <None Include="bdDataSet3.xsc">
       <DependentUpon>bdDataSet3.xsd</DependentUpon>
@@ -945,9 +1095,9 @@
     <None Include="Resources\user.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="bd.accdb">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    <None Include="Resources\file %285%29.png" />
+    <None Include="Resources\file %284%29.png" />
+    <None Include="Resources\file %283%29.png" />
     <None Include="Resources\service.png" />
     <None Include="Resources\configuration.png" />
     <None Include="Resources\icon.png" />
@@ -965,6 +1115,14 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bd.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\map.png" />
+    <None Include="Resources\nota de salida_page-0001.jpg" />
+    <None Include="Resources\print.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
