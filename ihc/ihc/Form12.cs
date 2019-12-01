@@ -27,7 +27,7 @@ namespace ihc
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form9 form9 = new Form9();
+            ventanaContratos form9 = new ventanaContratos();
             form9.Show();
         }
 

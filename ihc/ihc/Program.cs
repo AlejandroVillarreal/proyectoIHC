@@ -16,7 +16,7 @@ namespace ihc
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ventanaLogin());
+            Application.Run(new Form1());
         }
     }
 }
