@@ -79,6 +79,7 @@
             // 
             // pictureBox3
             // 
+            this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox3.Image = global::ihc.Properties.Resources.reanudar;
             this.pictureBox3.Location = new System.Drawing.Point(472, 328);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
@@ -87,9 +88,11 @@
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 19;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // pictureBox6
             // 
+            this.pictureBox6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox6.Image = global::ihc.Properties.Resources.anadir;
             this.pictureBox6.Location = new System.Drawing.Point(665, 117);
             this.pictureBox6.Margin = new System.Windows.Forms.Padding(2);
@@ -98,6 +101,7 @@
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 18;
             this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
             // pictureBox2
             // 

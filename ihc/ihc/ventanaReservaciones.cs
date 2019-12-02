@@ -27,7 +27,7 @@ namespace ihc
         private void pictureBox7_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form3 form3 = new Form3();
+            ventanaMenuPrincipal form3 = new ventanaMenuPrincipal();
             form3.Show();
         }
 

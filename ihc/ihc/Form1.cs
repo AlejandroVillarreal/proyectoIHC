@@ -25,7 +25,7 @@ namespace ihc
         private void Button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form3 form3 = new Form3();
+            ventanaMenuPrincipal form3 = new ventanaMenuPrincipal();
             form3.Show();
         }
 
@@ -37,13 +37,22 @@ namespace ihc
         private void PictureBox4_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form3 form3 = new Form3();
+            ventanaMenuPrincipal form3 = new ventanaMenuPrincipal();
             form3.Show();
         }
 
         private void ComboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            MessageBox.Show("Su Contraseña se ha Restablezido,verifique su correo electronico .",
+    "Seguridad",
+    MessageBoxButtons.OK,
+    MessageBoxIcon.Exclamation,
+    MessageBoxDefaultButton.Button1);
         }
     }
 }

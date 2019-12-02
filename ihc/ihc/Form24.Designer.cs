@@ -30,9 +30,6 @@
         {
             this.components = new System.ComponentModel.Container();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.bdDataSet3 = new ihc.bdDataSet3();
-            this.contratosBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.contratosTableAdapter = new ihc.bdDataSet3TableAdapters.ContratosTableAdapter();
             this.referenciaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.clienteDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.fechaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -49,9 +46,13 @@
             this.comentariosDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.equipoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.aditamentosDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.contratosBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.bdDataSet3 = new ihc.bdDataSet3();
+            this.contratosTableAdapter = new ihc.bdDataSet3TableAdapters.ContratosTableAdapter();
+            this.hScrollBar1 = new System.Windows.Forms.HScrollBar();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bdDataSet3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.contratosBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bdDataSet3)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
@@ -76,24 +77,10 @@
             this.equipoDataGridViewTextBoxColumn,
             this.aditamentosDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.contratosBindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(-1, 125);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 93);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(1646, 300);
             this.dataGridView1.TabIndex = 0;
-            // 
-            // bdDataSet3
-            // 
-            this.bdDataSet3.DataSetName = "bdDataSet3";
-            this.bdDataSet3.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // contratosBindingSource
-            // 
-            this.contratosBindingSource.DataMember = "Contratos";
-            this.contratosBindingSource.DataSource = this.bdDataSet3;
-            // 
-            // contratosTableAdapter
-            // 
-            this.contratosTableAdapter.ClearBeforeFill = true;
             // 
             // referenciaDataGridViewTextBoxColumn
             // 
@@ -191,19 +178,42 @@
             this.aditamentosDataGridViewTextBoxColumn.HeaderText = "Aditamentos";
             this.aditamentosDataGridViewTextBoxColumn.Name = "aditamentosDataGridViewTextBoxColumn";
             // 
+            // contratosBindingSource
+            // 
+            this.contratosBindingSource.DataMember = "Contratos";
+            this.contratosBindingSource.DataSource = this.bdDataSet3;
+            // 
+            // bdDataSet3
+            // 
+            this.bdDataSet3.DataSetName = "bdDataSet3";
+            this.bdDataSet3.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // contratosTableAdapter
+            // 
+            this.contratosTableAdapter.ClearBeforeFill = true;
+            // 
+            // hScrollBar1
+            // 
+            this.hScrollBar1.Location = new System.Drawing.Point(12, 73);
+            this.hScrollBar1.Name = "hScrollBar1";
+            this.hScrollBar1.Size = new System.Drawing.Size(1470, 17);
+            this.hScrollBar1.TabIndex = 1;
+            this.hScrollBar1.Scroll += new System.Windows.Forms.ScrollEventHandler(this.hScrollBar1_Scroll);
+            // 
             // Form24
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1658, 450);
+            this.ClientSize = new System.Drawing.Size(1370, 450);
+            this.Controls.Add(this.hScrollBar1);
             this.Controls.Add(this.dataGridView1);
             this.Name = "Form24";
             this.Text = "Consulta de Contratos";
             this.Load += new System.EventHandler(this.Form24_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bdDataSet3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.contratosBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bdDataSet3)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -230,5 +240,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn comentariosDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn equipoDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn aditamentosDataGridViewTextBoxColumn;
+        private System.Windows.Forms.HScrollBar hScrollBar1;
     }
 }
