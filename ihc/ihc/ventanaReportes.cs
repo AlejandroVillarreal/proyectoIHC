@@ -36,14 +36,14 @@ namespace ihc
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            this.Hide();
+           
             ventanaReportesContratos ventanaReportesContratos = new ventanaReportesContratos();
             ventanaReportesContratos.Show();
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            
             ventanaReportesClientes ventanaReportesClientes = new ventanaReportesClientes();
             ventanaReportesClientes.Show();
         }

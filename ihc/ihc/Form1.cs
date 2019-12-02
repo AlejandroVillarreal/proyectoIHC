@@ -45,5 +45,14 @@ namespace ihc
         {
 
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            MessageBox.Show("Su Contraseña se ha Restablezido,verifique su correo electronico .",
+    "Seguridad",
+    MessageBoxButtons.OK,
+    MessageBoxIcon.Exclamation,
+    MessageBoxDefaultButton.Button1);
+        }
     }
 }

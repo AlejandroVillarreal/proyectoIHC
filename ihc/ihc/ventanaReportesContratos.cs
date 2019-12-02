@@ -25,22 +25,25 @@ namespace ihc
         private void pictureBox3_Click(object sender, EventArgs e)
         {
             this.Hide();
-            ventanaReportes ventanaReportes = new ventanaReportes();
-            ventanaReportes.Show();
+            
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            ventanaReportesClientesBusqueda ventanaReportesClientesBusqueda = new ventanaReportesClientesBusqueda();
-            ventanaReportesClientesBusqueda.Show();
+            
+            ventanaReportesContratosBuscador ventanaReportesContratosBuscador = new ventanaReportesContratosBuscador();
+            ventanaReportesContratosBuscador.Show();
+
+
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            ventanaReportesClientesBusqueda ventanaReportesClientesBusqueda = new ventanaReportesClientesBusqueda();
-            ventanaReportesClientesBusqueda.Show();
+            
+            
+            ventanaReportesContratosBuscador ventanaReportesContratosBuscador = new ventanaReportesContratosBuscador();
+            ventanaReportesContratosBuscador.Show();
+
         }
     }
 }

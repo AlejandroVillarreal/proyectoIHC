@@ -22,5 +22,22 @@ namespace ihc
             this.Hide();
            
         }
+
+        private void ventanaReportesClientes_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            ventanaReportesClientesBuscador ventanaReportesClientesBuscador = new ventanaReportesClientesBuscador();
+            ventanaReportesClientesBuscador.Show();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            ventanaReportesClientesBuscador ventanaReportesClientesBuscador = new ventanaReportesClientesBuscador();
+            ventanaReportesClientesBuscador.Show();
+        }
     }
 }

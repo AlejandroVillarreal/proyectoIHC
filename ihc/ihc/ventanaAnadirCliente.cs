@@ -25,15 +25,13 @@ namespace ihc
         private void pictureBox7_Click(object sender, EventArgs e)
         {
             this.Hide();
-            ventanaMenuPrincipal form3 = new ventanaMenuPrincipal();
-            form3.Show();
+            
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form21 form21 = new Form21();
-            form21.Show();
+         
         }
 
         private void label4_Click(object sender, EventArgs e)

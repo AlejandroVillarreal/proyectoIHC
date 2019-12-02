@@ -54,15 +54,15 @@ namespace ihc
         private void PictureBox2_Click(object sender, EventArgs e)
         {
            
-            Form21 form21 = new Form21();
-            form21.Show();
+            ventanaClientes ventanaClientes = new ventanaClientes();
+            ventanaClientes.Show();
         }
 
         private void PictureBox4_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Form8 form8 = new Form8();
-            form8.Show();
+            
+            ventanaServicios ventanaServicios = new ventanaServicios();
+            ventanaServicios.Show();
         }
 
         private void PictureBox3_Click(object sender, EventArgs e)

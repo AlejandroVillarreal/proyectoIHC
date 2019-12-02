@@ -205,7 +205,6 @@ C:\Users\andre\Desktop\proyectoIHC-master\ihc\ihc\obj\Debug\ihc.Form20.resources
 C:\Users\andre\Desktop\proyectoIHC-master\ihc\ihc\obj\Debug\ihc.Form21.resources
 C:\Users\andre\Desktop\proyectoIHC-master\ihc\ihc\obj\Debug\ihc.Form22.resources
 C:\Users\andre\Desktop\proyectoIHC-master\ihc\ihc\obj\Debug\ihc.Form23.resources
-C:\Users\andre\Desktop\proyectoIHC-master\ihc\ihc\obj\Debug\ihc.Form24.resources
 C:\Users\andre\Desktop\proyectoIHC-master\ihc\ihc\obj\Debug\ihc.Form25.resources
 C:\Users\andre\Desktop\proyectoIHC-master\ihc\ihc\obj\Debug\ihc.Form26.resources
 C:\Users\andre\Desktop\proyectoIHC-master\ihc\ihc\obj\Debug\ihc.Form4.resources
@@ -213,7 +212,6 @@ C:\Users\andre\Desktop\proyectoIHC-master\ihc\ihc\obj\Debug\ihc.Form5.resources
 C:\Users\andre\Desktop\proyectoIHC-master\ihc\ihc\obj\Debug\ihc.Form6.resources
 C:\Users\andre\Desktop\proyectoIHC-master\ihc\ihc\obj\Debug\ihc.Form7.resources
 C:\Users\andre\Desktop\proyectoIHC-master\ihc\ihc\obj\Debug\ihc.Form8.resources
-C:\Users\andre\Desktop\proyectoIHC-master\ihc\ihc\obj\Debug\ihc.Form9.resources
 C:\Users\andre\Desktop\proyectoIHC-master\ihc\ihc\obj\Debug\ihc.Properties.Resources.resources
 C:\Users\andre\Desktop\proyectoIHC-master\ihc\ihc\obj\Debug\ihc.ventanaEditarEquipo.resources
 C:\Users\andre\Desktop\proyectoIHC-master\ihc\ihc\obj\Debug\ihc.ventanaEditarMantenimiento.resources
@@ -323,8 +321,14 @@ C:\Users\andre\Desktop\proyectoIHC-master\ihc\ihc\obj\Debug\ihc.ventanaSeleccion
 C:\Users\andre\Desktop\proyectoIHC-master\ihc\ihc\obj\Debug\ihc.ventanaReporteBuscado.resources
 C:\Users\andre\Desktop\proyectoIHC-master\ihc\ihc\obj\Debug\ihc.ventanaReportesContratos.resources
 C:\Users\andre\Desktop\proyectoIHC-master\ihc\ihc\obj\Debug\ihc.ventanaReportesContratosBuscado.resources
-C:\Users\andre\Desktop\proyectoIHC-master\ihc\ihc\obj\Debug\ihc.ventanaReportesContratosBusqueda.resources
 C:\Users\andre\Desktop\proyectoIHC-master\ihc\ihc\obj\Debug\ihc.ventanaReportesClientes.resources
 C:\Users\andre\Desktop\proyectoIHC-master\ihc\ihc\obj\Debug\ihc.ventanaReportesClientesBusqueda.resources
 C:\Users\andre\Desktop\proyectoIHC-master\ihc\ihc\obj\Debug\ihc.ventanaReportesServicio.resources
 C:\Users\andre\Desktop\proyectoIHC-master\ihc\ihc\obj\Debug\ihc.ventanaReportesServicioBusqueda.resources
+C:\Users\andre\Desktop\proyectoIHC-master\ihc\ihc\obj\Debug\ihc.ventanaContratos.resources
+C:\Users\andre\Desktop\proyectoIHC-master\ihc\ihc\obj\Debug\ihc.ventanaContratosCotizacion.resources
+C:\Users\andre\Desktop\proyectoIHC-master\ihc\ihc\obj\Debug\ihc.ventanaContratosEquipo.resources
+C:\Users\andre\Desktop\proyectoIHC-master\ihc\ihc\obj\Debug\ihc.ventanaContratosFalla.resources
+C:\Users\andre\Desktop\proyectoIHC-master\ihc\ihc\obj\Debug\ihc.ventanaConsultaContrato.resources
+C:\Users\andre\Desktop\proyectoIHC-master\ihc\ihc\obj\Debug\ihc.ventanaReportesClientesBuscador.resources
+C:\Users\andre\Desktop\proyectoIHC-master\ihc\ihc\obj\Debug\ihc.ventanaReportesContratosBuscador.resources

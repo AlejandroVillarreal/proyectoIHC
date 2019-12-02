@@ -20,8 +20,7 @@ namespace ihc
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            ventanaReportes ventanaReportes = new ventanaReportes();
-            ventanaReportes.Show();
+            
 
         }
 

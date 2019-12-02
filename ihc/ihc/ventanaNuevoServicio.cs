@@ -26,7 +26,7 @@ MessageBoxButtons.OK, MessageBoxIcon.Information);
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form8 form8 = new Form8();
+            ventanaServicios form8 = new ventanaServicios();
             form8.Show();
         }
     }

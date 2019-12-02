@@ -163,6 +163,30 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="ventanaContratosCotizacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaContratosCotizacion.Designer.cs">
+      <DependentUpon>ventanaContratosCotizacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ventanaContratosEquipo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaContratosEquipo.Designer.cs">
+      <DependentUpon>ventanaContratosEquipo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ventanaContratosFalla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaContratosFalla.Designer.cs">
+      <DependentUpon>ventanaContratosFalla.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ventanaReportesClientesBuscador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaReportesClientesBuscador.Designer.cs">
+      <DependentUpon>ventanaReportesClientesBuscador.cs</DependentUpon>
+    </Compile>
     <Compile Include="ventanaReportesClientesBusqueda.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -181,11 +205,11 @@
     <Compile Include="ventanaReportesContratosBuscado.Designer.cs">
       <DependentUpon>ventanaReportesContratosBuscado.cs</DependentUpon>
     </Compile>
-    <Compile Include="ventanaReportesContratosBusqueda.cs">
+    <Compile Include="ventanaReportesContratosBuscador.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ventanaReportesContratosBusqueda.Designer.cs">
-      <DependentUpon>ventanaReportesContratosBusqueda.cs</DependentUpon>
+    <Compile Include="ventanaReportesContratosBuscador.Designer.cs">
+      <DependentUpon>ventanaReportesContratosBuscador.cs</DependentUpon>
     </Compile>
     <Compile Include="ventanaReportesContratos.cs">
       <SubType>Form</SubType>
@@ -421,29 +445,29 @@
     <Compile Include="Form20.Designer.cs">
       <DependentUpon>Form20.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form21.cs">
+    <Compile Include="ventanaClientes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form21.Designer.cs">
-      <DependentUpon>Form21.cs</DependentUpon>
+    <Compile Include="ventanaClientes.Designer.cs">
+      <DependentUpon>ventanaClientes.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form22.cs">
+    <Compile Include="ventanaClientesConsulta.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form22.Designer.cs">
-      <DependentUpon>Form22.cs</DependentUpon>
+    <Compile Include="ventanaClientesConsulta.Designer.cs">
+      <DependentUpon>ventanaClientesConsulta.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form23.cs">
+    <Compile Include="ventanaServiciosConsulta.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form23.Designer.cs">
-      <DependentUpon>Form23.cs</DependentUpon>
+    <Compile Include="ventanaServiciosConsulta.Designer.cs">
+      <DependentUpon>ventanaServiciosConsulta.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form24.cs">
+    <Compile Include="ventanaConsultaContrato.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form24.Designer.cs">
-      <DependentUpon>Form24.cs</DependentUpon>
+    <Compile Include="ventanaConsultaContrato.Designer.cs">
+      <DependentUpon>ventanaConsultaContrato.cs</DependentUpon>
     </Compile>
     <Compile Include="Form25.cs">
       <SubType>Form</SubType>
@@ -487,11 +511,11 @@
     <Compile Include="Form7.Designer.cs">
       <DependentUpon>Form7.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form8.cs">
+    <Compile Include="ventanaServicios.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form8.Designer.cs">
-      <DependentUpon>Form8.cs</DependentUpon>
+    <Compile Include="ventanaServicios.Designer.cs">
+      <DependentUpon>ventanaServicios.cs</DependentUpon>
     </Compile>
     <Compile Include="ventanaContratos.cs">
       <SubType>Form</SubType>
@@ -557,6 +581,15 @@
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ventanaContratosCotizacion.resx">
+      <DependentUpon>ventanaContratosCotizacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ventanaContratosEquipo.resx">
+      <DependentUpon>ventanaContratosEquipo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ventanaContratosFalla.resx">
+      <DependentUpon>ventanaContratosFalla.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ventanaReporteBuscado.resx">
       <DependentUpon>ventanaReporteBuscado.cs</DependentUpon>
@@ -651,6 +684,9 @@
     <EmbeddedResource Include="ventanaReportesClientes.resx">
       <DependentUpon>ventanaReportesClientes.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ventanaReportesClientesBuscador.resx">
+      <DependentUpon>ventanaReportesClientesBuscador.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ventanaReportesClientesBusqueda.resx">
       <DependentUpon>ventanaReportesClientesBusqueda.cs</DependentUpon>
     </EmbeddedResource>
@@ -660,8 +696,8 @@
     <EmbeddedResource Include="ventanaReportesContratosBuscado.resx">
       <DependentUpon>ventanaReportesContratosBuscado.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ventanaReportesContratosBusqueda.resx">
-      <DependentUpon>ventanaReportesContratosBusqueda.cs</DependentUpon>
+    <EmbeddedResource Include="ventanaReportesContratosBuscador.resx">
+      <DependentUpon>ventanaReportesContratosBuscador.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ventanaReportesEquipo.resx">
       <DependentUpon>ventanaReportesEquipo.cs</DependentUpon>
@@ -687,17 +723,17 @@
     <EmbeddedResource Include="Form20.resx">
       <DependentUpon>Form20.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form21.resx">
-      <DependentUpon>Form21.cs</DependentUpon>
+    <EmbeddedResource Include="ventanaClientes.resx">
+      <DependentUpon>ventanaClientes.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form22.resx">
-      <DependentUpon>Form22.cs</DependentUpon>
+    <EmbeddedResource Include="ventanaClientesConsulta.resx">
+      <DependentUpon>ventanaClientesConsulta.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form23.resx">
-      <DependentUpon>Form23.cs</DependentUpon>
+    <EmbeddedResource Include="ventanaServiciosConsulta.resx">
+      <DependentUpon>ventanaServiciosConsulta.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form24.resx">
-      <DependentUpon>Form24.cs</DependentUpon>
+    <EmbeddedResource Include="ventanaConsultaContrato.resx">
+      <DependentUpon>ventanaConsultaContrato.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form25.resx">
       <DependentUpon>Form25.cs</DependentUpon>
@@ -720,8 +756,8 @@
     <EmbeddedResource Include="Form7.resx">
       <DependentUpon>Form7.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form8.resx">
-      <DependentUpon>Form8.cs</DependentUpon>
+    <EmbeddedResource Include="ventanaServicios.resx">
+      <DependentUpon>ventanaServicios.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ventanaContratos.resx">
       <DependentUpon>ventanaContratos.cs</DependentUpon>

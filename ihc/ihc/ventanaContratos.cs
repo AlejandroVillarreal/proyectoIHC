@@ -40,9 +40,9 @@ namespace ihc
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Form24 form24 = new Form24();
-            form24.Show();
+           
+            ventanaConsultaContrato ventanaConsultaContrato = new ventanaConsultaContrato();
+            ventanaConsultaContrato.Show();
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -67,7 +67,25 @@ namespace ihc
 
         private void pictureBox6_Click(object sender, EventArgs e)
         {
+            ventanaContratosEquipo ventanaContratosEquipo = new ventanaContratosEquipo();
+            ventanaContratosEquipo.Show();
+        }
 
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            ventanaContratosFalla ventanaContratosFalla = new ventanaContratosFalla();
+            ventanaContratosFalla.Show();
+        }
+
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+            ventanaContratosCotizacion ventanaContratosCotizacion = new ventanaContratosCotizacion();
+            ventanaContratosCotizacion.Show();
         }
     }
     }

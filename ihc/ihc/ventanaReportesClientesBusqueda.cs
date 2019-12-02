@@ -21,8 +21,7 @@ namespace ihc
         {
             this.Hide();
            
-            ventanaReportesContratos ventanaReportesContratos = new ventanaReportesContratos();
-            ventanaReportesContratos.Show();
+            
         }
     }
 }
