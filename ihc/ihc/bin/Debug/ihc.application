@@ -7,14 +7,14 @@
     <framework targetVersion="4.7.2" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="ihc.exe.manifest" size="3889">
+    <dependentAssembly dependencyType="install" codebase="ihc.exe.manifest" size="3890">
       <assemblyIdentity name="ihc.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>2wTyMaoqa+QrHD204aL6hbqL8oajkcgnC9jDZG8QN38=</dsig:DigestValue>
+        <dsig:DigestValue>dr6cE/h+Dfz8PByMTmuQTN7VRDjtUGf1P1xw9J1PA0w=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

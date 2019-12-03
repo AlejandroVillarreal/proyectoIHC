@@ -16,5 +16,18 @@ namespace ihc
         {
             InitializeComponent();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ventanaServicios form8 = new ventanaServicios();
+            form8.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Datos Guardados  Satisfactoriamente", "Modificacion",
+ MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
     }
 }

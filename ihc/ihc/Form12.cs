@@ -20,14 +20,14 @@ namespace ihc
         private void pictureBox7_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form3 form3 = new Form3();
+            ventanaMenuPrincipal form3 = new ventanaMenuPrincipal();
             form3.Show();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form9 form9 = new Form9();
+            ventanaContratos form9 = new ventanaContratos();
             form9.Show();
         }
 
@@ -55,6 +55,7 @@ namespace ihc
             textBox3.Clear();
             textBox4.Clear();
             textBox5.Clear();
+
             
 
         }

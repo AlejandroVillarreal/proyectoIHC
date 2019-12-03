@@ -89,10 +89,73 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>bdDataSet10.xsd</DependentUpon>
     </Compile>
+    <Compile Include="bdDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bdDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="bdDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bdDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="bdDataSet13.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bdDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="bdDataSet14.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bdDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="bdDataSet15.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bdDataSet15.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="bdDataSet16.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bdDataSet16.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="bdDataSet17.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bdDataSet17.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="bdDataSet18.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bdDataSet18.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="bdDataSet19.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bdDataSet19.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="bdDataSet2.cs">
+      <DependentUpon>bdDataSet2.xsd</DependentUpon>
+    </Compile>
     <Compile Include="bdDataSet2.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>bdDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="bdDataSet20.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bdDataSet20.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="bdDataSet21.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bdDataSet21.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="bdDataSet22.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bdDataSet22.xsd</DependentUpon>
     </Compile>
     <Compile Include="bdDataSet3.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -129,23 +192,125 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>bdDataSet9.xsd</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="ventanaAyuda.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="ventanaAyuda.Designer.cs">
+      <DependentUpon>ventanaAyuda.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form10.cs">
+    <Compile Include="ventanaConfiguracion.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form10.Designer.cs">
-      <DependentUpon>Form10.cs</DependentUpon>
+    <Compile Include="ventanaConfiguracion.Designer.cs">
+      <DependentUpon>ventanaConfiguracion.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form11.cs">
+    <Compile Include="ventanaConsultaContrato.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form11.Designer.cs">
-      <DependentUpon>Form11.cs</DependentUpon>
+    <Compile Include="ventanaConsultaContrato.Designer.cs">
+      <DependentUpon>ventanaConsultaContrato.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ventanaContratosCotizacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaContratosCotizacion.Designer.cs">
+      <DependentUpon>ventanaContratosCotizacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ventanaContratosEquipo .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaContratosEquipo .Designer.cs">
+      <DependentUpon>ventanaContratosEquipo .cs</DependentUpon>
+    </Compile>
+    <Compile Include="ventanaContratosFalla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaContratosFalla.Designer.cs">
+      <DependentUpon>ventanaContratosFalla.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ventanaEmpresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaEmpresa.Designer.cs">
+      <DependentUpon>ventanaEmpresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ventanaImpresora.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaImpresora.Designer.cs">
+      <DependentUpon>ventanaImpresora.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ventanaLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaLogin.Designer.cs">
+      <DependentUpon>ventanaLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ventanaNuevaSucursal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaNuevaSucursal.Designer.cs">
+      <DependentUpon>ventanaNuevaSucursal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ventanaReporteBuscado1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaReporteBuscado1.Designer.cs">
+      <DependentUpon>ventanaReporteBuscado1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ventanaReportes1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaReportes1.Designer.cs">
+      <DependentUpon>ventanaReportes1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ventanaEditarEquipoExterno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaEditarEquipoExterno.Designer.cs">
+      <DependentUpon>ventanaEditarEquipoExterno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ventanaEditarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaEditarUsuario.Designer.cs">
+      <DependentUpon>ventanaEditarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ventanaExportarInformacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaExportarInformacion.Designer.cs">
+      <DependentUpon>ventanaExportarInformacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ventanaImportarInformacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaImportarInformacion.Designer.cs">
+      <DependentUpon>ventanaImportarInformacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ventanaNota.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaNota.Designer.cs">
+      <DependentUpon>ventanaNota.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ventanaNuevoEquipoExterno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaNuevoEquipoExterno.Designer.cs">
+      <DependentUpon>ventanaNuevoEquipoExterno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ventanaNuevoUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaNuevoUsuario.Designer.cs">
+      <DependentUpon>ventanaNuevoUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ventanaProcesos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaProcesos.Designer.cs">
+      <DependentUpon>ventanaProcesos.cs</DependentUpon>
     </Compile>
     <Compile Include="Form12.cs">
       <SubType>Form</SubType>
@@ -171,11 +336,77 @@
     <Compile Include="Form15.Designer.cs">
       <DependentUpon>Form15.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form16.cs">
+    <Compile Include="ventanaMantenimiento.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form16.Designer.cs">
-      <DependentUpon>Form16.cs</DependentUpon>
+    <Compile Include="ventanaMantenimiento.Designer.cs">
+      <DependentUpon>ventanaMantenimiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ventanaAditamentos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaAditamentos.Designer.cs">
+      <DependentUpon>ventanaAditamentos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ventanaCategorias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaCategorias.Designer.cs">
+      <DependentUpon>ventanaCategorias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ventanaEditarAditamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaEditarAditamento.Designer.cs">
+      <DependentUpon>ventanaEditarAditamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ventanaEditarCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaEditarCategoria.Designer.cs">
+      <DependentUpon>ventanaEditarCategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ventanaEditarModeloMaquina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaEditarModeloMaquina.Designer.cs">
+      <DependentUpon>ventanaEditarModeloMaquina.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ventanaEditarModeloMotor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaEditarModeloMotor.Designer.cs">
+      <DependentUpon>ventanaEditarModeloMotor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ventanaEditarProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaEditarProveedor.Designer.cs">
+      <DependentUpon>ventanaEditarProveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ventanaModeloMaquinas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaModeloMaquinas.Designer.cs">
+      <DependentUpon>ventanaModeloMaquinas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ventanaModeloMotor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaModeloMotor.Designer.cs">
+      <DependentUpon>ventanaModeloMotor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ventanaModificarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaModificarCliente.Designer.cs">
+      <DependentUpon>ventanaModificarCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ventanaAnadirCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaAnadirCliente.Designer.cs">
+      <DependentUpon>ventanaAnadirCliente.cs</DependentUpon>
     </Compile>
     <Compile Include="ventanaBajasyMovimientos.cs">
       <SubType>Form</SubType>
@@ -195,17 +426,113 @@
     <Compile Include="ventanaEditarReservacion.Designer.cs">
       <DependentUpon>ventanaEditarReservacion.cs</DependentUpon>
     </Compile>
+    <Compile Include="ventanaNuevaCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaNuevaCategoria.Designer.cs">
+      <DependentUpon>ventanaNuevaCategoria.cs</DependentUpon>
+    </Compile>
     <Compile Include="ventanaNuevaReservacion.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ventanaNuevaReservacion.Designer.cs">
       <DependentUpon>ventanaNuevaReservacion.cs</DependentUpon>
     </Compile>
+    <Compile Include="ventanaNuevoAditamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaNuevoAditamento.Designer.cs">
+      <DependentUpon>ventanaNuevoAditamento.cs</DependentUpon>
+    </Compile>
     <Compile Include="ventanaNuevoBajasyMovimientos.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ventanaNuevoBajasyMovimientos.Designer.cs">
       <DependentUpon>ventanaNuevoBajasyMovimientos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ventanaNuevoModeloMaquina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaNuevoModeloMaquina.Designer.cs">
+      <DependentUpon>ventanaNuevoModeloMaquina.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ventanaNuevoModeloMotor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaNuevoModeloMotor.Designer.cs">
+      <DependentUpon>ventanaNuevoModeloMotor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ventanaNuevoProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaNuevoProveedor.Designer.cs">
+      <DependentUpon>ventanaNuevoProveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ventanaProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaProveedor.Designer.cs">
+      <DependentUpon>ventanaProveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ventanaReportesClientes1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaReportesClientes1.Designer.cs">
+      <DependentUpon>ventanaReportesClientes1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ventanaReportesClientesBuscador1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaReportesClientesBuscador1.Designer.cs">
+      <DependentUpon>ventanaReportesClientesBuscador1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ventanaReportesClientesBusqueda1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaReportesClientesBusqueda1.Designer.cs">
+      <DependentUpon>ventanaReportesClientesBusqueda1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ventanaReportesContratos1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaReportesContratos1.Designer.cs">
+      <DependentUpon>ventanaReportesContratos1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ventanaReportesContratosBuscado1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaReportesContratosBuscado1.Designer.cs">
+      <DependentUpon>ventanaReportesContratosBuscado1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ventanaReportesContratosBuscador1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaReportesContratosBuscador1.Designer.cs">
+      <DependentUpon>ventanaReportesContratosBuscador1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ventanaReportesEquipo1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaReportesEquipo1.Designer.cs">
+      <DependentUpon>ventanaReportesEquipo1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ventanaReportesServicio1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaReportesServicio1.Designer.cs">
+      <DependentUpon>ventanaReportesServicio1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ventanaReportesServicioBuscado1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaReportesServicioBuscado1.Designer.cs">
+      <DependentUpon>ventanaReportesServicioBuscado1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ventanaReportesServicioBusqueda1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaReportesServicioBusqueda1.Designer.cs">
+      <DependentUpon>ventanaReportesServicioBusqueda1.cs</DependentUpon>
     </Compile>
     <Compile Include="ventanaReservaciones.cs">
       <SubType>Form</SubType>
@@ -219,17 +546,17 @@
     <Compile Include="Form18.Designer.cs">
       <DependentUpon>Form18.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form19.cs">
+    <Compile Include="ventanaEquiposExternos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form19.Designer.cs">
-      <DependentUpon>Form19.cs</DependentUpon>
+    <Compile Include="ventanaEquiposExternos.Designer.cs">
+      <DependentUpon>ventanaEquiposExternos.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2.cs">
+    <Compile Include="ventanaConsultaEquipos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <Compile Include="ventanaConsultaEquipos.Designer.cs">
+      <DependentUpon>ventanaConsultaEquipos.cs</DependentUpon>
     </Compile>
     <Compile Include="Form20.cs">
       <SubType>Form</SubType>
@@ -237,17 +564,17 @@
     <Compile Include="Form20.Designer.cs">
       <DependentUpon>Form20.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form21.cs">
+    <Compile Include="ventanaClientes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form21.Designer.cs">
-      <DependentUpon>Form21.cs</DependentUpon>
+    <Compile Include="ventanaClientes.Designer.cs">
+      <DependentUpon>ventanaClientes.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form22.cs">
+    <Compile Include="ventanaClientesConsulta.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form22.Designer.cs">
-      <DependentUpon>Form22.cs</DependentUpon>
+    <Compile Include="ventanaClientesConsulta.Designer.cs">
+      <DependentUpon>ventanaClientesConsulta.cs</DependentUpon>
     </Compile>
     <Compile Include="Form23.cs">
       <SubType>Form</SubType>
@@ -261,11 +588,11 @@
     <Compile Include="Form24.Designer.cs">
       <DependentUpon>Form24.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form25.cs">
+    <Compile Include="ventanaConsultarUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form25.Designer.cs">
-      <DependentUpon>Form25.cs</DependentUpon>
+    <Compile Include="ventanaConsultarUsuario.Designer.cs">
+      <DependentUpon>ventanaConsultarUsuario.cs</DependentUpon>
     </Compile>
     <Compile Include="Form26.cs">
       <SubType>Form</SubType>
@@ -273,47 +600,41 @@
     <Compile Include="Form26.Designer.cs">
       <DependentUpon>Form26.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form3.cs">
+    <Compile Include="ventanaMenuPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form3.Designer.cs">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <Compile Include="ventanaMenuPrincipal.Designer.cs">
+      <DependentUpon>ventanaMenuPrincipal.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form4.cs">
+    <Compile Include="ventanaEquipos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form4.Designer.cs">
-      <DependentUpon>Form4.cs</DependentUpon>
+    <Compile Include="ventanaEquipos.Designer.cs">
+      <DependentUpon>ventanaEquipos.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form5.cs">
+    <Compile Include="ventanaSucursales.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form5.Designer.cs">
-      <DependentUpon>Form5.cs</DependentUpon>
+    <Compile Include="ventanaSucursales.Designer.cs">
+      <DependentUpon>ventanaSucursales.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form6.cs">
+    <Compile Include="ventanaUsuarios.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form6.Designer.cs">
-      <DependentUpon>Form6.cs</DependentUpon>
+    <Compile Include="ventanaUsuarios.Designer.cs">
+      <DependentUpon>ventanaUsuarios.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form7.cs">
+    <Compile Include="ventanaServicios.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form7.Designer.cs">
-      <DependentUpon>Form7.cs</DependentUpon>
+    <Compile Include="ventanaServicios.Designer.cs">
+      <DependentUpon>ventanaServicios.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form8.cs">
+    <Compile Include="ventanaContratos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form8.Designer.cs">
-      <DependentUpon>Form8.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form9.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form9.Designer.cs">
-      <DependentUpon>Form9.cs</DependentUpon>
+    <Compile Include="ventanaContratos.Designer.cs">
+      <DependentUpon>ventanaContratos.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -365,14 +686,74 @@
     <Compile Include="ventanaNuevoServicio.Designer.cs">
       <DependentUpon>ventanaNuevoServicio.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="ventanaRespaldarInformacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaRespaldarInformacion.Designer.cs">
+      <DependentUpon>ventanaRespaldarInformacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ventanaSeleccionNuevoEquipo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaSeleccionNuevoEquipo.Designer.cs">
+      <DependentUpon>ventanaSeleccionNuevoEquipo.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ventanaAyuda.resx">
+      <DependentUpon>ventanaAyuda.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form10.resx">
-      <DependentUpon>Form10.cs</DependentUpon>
+    <EmbeddedResource Include="ventanaConfiguracion.resx">
+      <DependentUpon>ventanaConfiguracion.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form11.resx">
-      <DependentUpon>Form11.cs</DependentUpon>
+    <EmbeddedResource Include="ventanaConsultaContrato.resx">
+      <DependentUpon>ventanaConsultaContrato.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ventanaContratosCotizacion.resx">
+      <DependentUpon>ventanaContratosCotizacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ventanaContratosEquipo .resx">
+      <DependentUpon>ventanaContratosEquipo .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ventanaContratosFalla.resx">
+      <DependentUpon>ventanaContratosFalla.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ventanaEmpresa.resx">
+      <DependentUpon>ventanaEmpresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ventanaImpresora.resx">
+      <DependentUpon>ventanaImpresora.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ventanaLogin.resx">
+      <DependentUpon>ventanaLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ventanaReporteBuscado1.resx">
+      <DependentUpon>ventanaReporteBuscado1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ventanaReportes1.resx">
+      <DependentUpon>ventanaReportes1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ventanaEditarEquipoExterno.resx">
+      <DependentUpon>ventanaEditarEquipoExterno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ventanaEditarUsuario.resx">
+      <DependentUpon>ventanaEditarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ventanaExportarInformacion.resx">
+      <DependentUpon>ventanaExportarInformacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ventanaImportarInformacion.resx">
+      <DependentUpon>ventanaImportarInformacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ventanaNota.resx">
+      <DependentUpon>ventanaNota.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ventanaNuevoEquipoExterno.resx">
+      <DependentUpon>ventanaNuevoEquipoExterno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ventanaNuevoUsuario.resx">
+      <DependentUpon>ventanaNuevoUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ventanaProcesos.resx">
+      <DependentUpon>ventanaProcesos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form12.resx">
       <DependentUpon>Form12.cs</DependentUpon>
@@ -386,8 +767,41 @@
     <EmbeddedResource Include="Form15.resx">
       <DependentUpon>Form15.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form16.resx">
-      <DependentUpon>Form16.cs</DependentUpon>
+    <EmbeddedResource Include="ventanaMantenimiento.resx">
+      <DependentUpon>ventanaMantenimiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ventanaAditamentos.resx">
+      <DependentUpon>ventanaAditamentos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ventanaCategorias.resx">
+      <DependentUpon>ventanaCategorias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ventanaEditarAditamento.resx">
+      <DependentUpon>ventanaEditarAditamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ventanaEditarCategoria.resx">
+      <DependentUpon>ventanaEditarCategoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ventanaEditarModeloMaquina.resx">
+      <DependentUpon>ventanaEditarModeloMaquina.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ventanaEditarModeloMotor.resx">
+      <DependentUpon>ventanaEditarModeloMotor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ventanaEditarProveedor.resx">
+      <DependentUpon>ventanaEditarProveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ventanaModeloMaquinas.resx">
+      <DependentUpon>ventanaModeloMaquinas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ventanaModeloMotor.resx">
+      <DependentUpon>ventanaModeloMotor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ventanaModificarCliente.resx">
+      <DependentUpon>ventanaModificarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ventanaAnadirCliente.resx">
+      <DependentUpon>ventanaAnadirCliente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ventanaBajasyMovimientos.resx">
       <DependentUpon>ventanaBajasyMovimientos.cs</DependentUpon>
@@ -398,11 +812,59 @@
     <EmbeddedResource Include="ventanaEditarReservacion.resx">
       <DependentUpon>ventanaEditarReservacion.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ventanaNuevaCategoria.resx">
+      <DependentUpon>ventanaNuevaCategoria.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ventanaNuevaReservacion.resx">
       <DependentUpon>ventanaNuevaReservacion.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ventanaNuevoAditamento.resx">
+      <DependentUpon>ventanaNuevoAditamento.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ventanaNuevoBajasyMovimientos.resx">
       <DependentUpon>ventanaNuevoBajasyMovimientos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ventanaNuevoModeloMaquina.resx">
+      <DependentUpon>ventanaNuevoModeloMaquina.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ventanaNuevoModeloMotor.resx">
+      <DependentUpon>ventanaNuevoModeloMotor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ventanaNuevoProveedor.resx">
+      <DependentUpon>ventanaNuevoProveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ventanaProveedor.resx">
+      <DependentUpon>ventanaProveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ventanaReportesClientes1.resx">
+      <DependentUpon>ventanaReportesClientes1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ventanaReportesClientesBuscador1.resx">
+      <DependentUpon>ventanaReportesClientesBuscador1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ventanaReportesClientesBusqueda1.resx">
+      <DependentUpon>ventanaReportesClientesBusqueda1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ventanaReportesContratos1.resx">
+      <DependentUpon>ventanaReportesContratos1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ventanaReportesContratosBuscado1.resx">
+      <DependentUpon>ventanaReportesContratosBuscado1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ventanaReportesContratosBuscador1.resx">
+      <DependentUpon>ventanaReportesContratosBuscador1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ventanaReportesEquipo1.resx">
+      <DependentUpon>ventanaReportesEquipo1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ventanaReportesServicio1.resx">
+      <DependentUpon>ventanaReportesServicio1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ventanaReportesServicioBuscado1.resx">
+      <DependentUpon>ventanaReportesServicioBuscado1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ventanaReportesServicioBusqueda1.resx">
+      <DependentUpon>ventanaReportesServicioBusqueda1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ventanaReservaciones.resx">
       <DependentUpon>ventanaReservaciones.cs</DependentUpon>
@@ -410,20 +872,20 @@
     <EmbeddedResource Include="Form18.resx">
       <DependentUpon>Form18.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form19.resx">
-      <DependentUpon>Form19.cs</DependentUpon>
+    <EmbeddedResource Include="ventanaEquiposExternos.resx">
+      <DependentUpon>ventanaEquiposExternos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <EmbeddedResource Include="ventanaConsultaEquipos.resx">
+      <DependentUpon>ventanaConsultaEquipos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form20.resx">
       <DependentUpon>Form20.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form21.resx">
-      <DependentUpon>Form21.cs</DependentUpon>
+    <EmbeddedResource Include="ventanaClientes.resx">
+      <DependentUpon>ventanaClientes.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form22.resx">
-      <DependentUpon>Form22.cs</DependentUpon>
+    <EmbeddedResource Include="ventanaClientesConsulta.resx">
+      <DependentUpon>ventanaClientesConsulta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form23.resx">
       <DependentUpon>Form23.cs</DependentUpon>
@@ -431,32 +893,29 @@
     <EmbeddedResource Include="Form24.resx">
       <DependentUpon>Form24.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form25.resx">
-      <DependentUpon>Form25.cs</DependentUpon>
+    <EmbeddedResource Include="ventanaConsultarUsuario.resx">
+      <DependentUpon>ventanaConsultarUsuario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form26.resx">
       <DependentUpon>Form26.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form3.resx">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <EmbeddedResource Include="ventanaMenuPrincipal.resx">
+      <DependentUpon>ventanaMenuPrincipal.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form4.resx">
-      <DependentUpon>Form4.cs</DependentUpon>
+    <EmbeddedResource Include="ventanaEquipos.resx">
+      <DependentUpon>ventanaEquipos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form5.resx">
-      <DependentUpon>Form5.cs</DependentUpon>
+    <EmbeddedResource Include="ventanaSucursales.resx">
+      <DependentUpon>ventanaSucursales.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form6.resx">
-      <DependentUpon>Form6.cs</DependentUpon>
+    <EmbeddedResource Include="ventanaUsuarios.resx">
+      <DependentUpon>ventanaUsuarios.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form7.resx">
-      <DependentUpon>Form7.cs</DependentUpon>
+    <EmbeddedResource Include="ventanaServicios.resx">
+      <DependentUpon>ventanaServicios.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form8.resx">
-      <DependentUpon>Form8.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form9.resx">
-      <DependentUpon>Form9.cs</DependentUpon>
+    <EmbeddedResource Include="ventanaContratos.resx">
+      <DependentUpon>ventanaContratos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -492,6 +951,12 @@
     <EmbeddedResource Include="ventanaNuevoServicio.resx">
       <DependentUpon>ventanaNuevoServicio.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ventanaRespaldarInformacion.resx">
+      <DependentUpon>ventanaRespaldarInformacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ventanaSeleccionNuevoEquipo.resx">
+      <DependentUpon>ventanaSeleccionNuevoEquipo.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="bdDataSet.xsc">
       <DependentUpon>bdDataSet.xsd</DependentUpon>
     </None>
@@ -525,6 +990,105 @@
     <None Include="bdDataSet10.xss">
       <DependentUpon>bdDataSet10.xsd</DependentUpon>
     </None>
+    <None Include="bdDataSet11.xsc">
+      <DependentUpon>bdDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="bdDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>bdDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bdDataSet11.xss">
+      <DependentUpon>bdDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="bdDataSet12.xsc">
+      <DependentUpon>bdDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="bdDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>bdDataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bdDataSet12.xss">
+      <DependentUpon>bdDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="bdDataSet13.xsc">
+      <DependentUpon>bdDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="bdDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>bdDataSet13.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bdDataSet13.xss">
+      <DependentUpon>bdDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="bdDataSet14.xsc">
+      <DependentUpon>bdDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="bdDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>bdDataSet14.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bdDataSet14.xss">
+      <DependentUpon>bdDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="bdDataSet15.xsc">
+      <DependentUpon>bdDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="bdDataSet15.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>bdDataSet15.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bdDataSet15.xss">
+      <DependentUpon>bdDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="bdDataSet16.xsc">
+      <DependentUpon>bdDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="bdDataSet16.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>bdDataSet16.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bdDataSet16.xss">
+      <DependentUpon>bdDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="bdDataSet17.xsc">
+      <DependentUpon>bdDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="bdDataSet17.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>bdDataSet17.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bdDataSet17.xss">
+      <DependentUpon>bdDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="bdDataSet18.xsc">
+      <DependentUpon>bdDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="bdDataSet18.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>bdDataSet18.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bdDataSet18.xss">
+      <DependentUpon>bdDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="bdDataSet19.xsc">
+      <DependentUpon>bdDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="bdDataSet19.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>bdDataSet19.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bdDataSet19.xss">
+      <DependentUpon>bdDataSet19.xsd</DependentUpon>
+    </None>
     <None Include="bdDataSet2.xsc">
       <DependentUpon>bdDataSet2.xsd</DependentUpon>
     </None>
@@ -535,6 +1099,39 @@
     </None>
     <None Include="bdDataSet2.xss">
       <DependentUpon>bdDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="bdDataSet20.xsc">
+      <DependentUpon>bdDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="bdDataSet20.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>bdDataSet20.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bdDataSet20.xss">
+      <DependentUpon>bdDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="bdDataSet21.xsc">
+      <DependentUpon>bdDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="bdDataSet21.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>bdDataSet21.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bdDataSet21.xss">
+      <DependentUpon>bdDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="bdDataSet22.xsc">
+      <DependentUpon>bdDataSet22.xsd</DependentUpon>
+    </None>
+    <None Include="bdDataSet22.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>bdDataSet22.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bdDataSet22.xss">
+      <DependentUpon>bdDataSet22.xsd</DependentUpon>
     </None>
     <None Include="bdDataSet3.xsc">
       <DependentUpon>bdDataSet3.xsd</DependentUpon>
@@ -700,9 +1297,14 @@
     <None Include="Resources\user.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="bd.accdb">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    <None Include="Resources\file %285%29.png" />
+    <None Include="Resources\file %284%29.png" />
+    <None Include="Resources\file %283%29.png" />
+    <None Include="Resources\service.png" />
+    <None Include="Resources\configuration.png" />
+    <None Include="Resources\icon.png" />
+    <None Include="Resources\electric-motor.png" />
+    <None Include="Resources\list.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
@@ -715,6 +1317,16 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bd.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\question.png" />
+    <None Include="Resources\enterprise.png" />
+    <None Include="Resources\map.png" />
+    <None Include="Resources\nota de salida_page-0001.jpg" />
+    <None Include="Resources\print.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
