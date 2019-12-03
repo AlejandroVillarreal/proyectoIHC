@@ -41,9 +41,10 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(553, 272);
+            this.button2.Location = new System.Drawing.Point(415, 221);
+            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(150, 40);
+            this.button2.Size = new System.Drawing.Size(112, 32);
             this.button2.TabIndex = 96;
             this.button2.Text = "Guardar";
             this.button2.UseVisualStyleBackColor = true;
@@ -52,17 +53,19 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(74, 151);
+            this.label1.Location = new System.Drawing.Point(56, 123);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(141, 29);
+            this.label1.Size = new System.Drawing.Size(110, 24);
             this.label1.TabIndex = 95;
             this.label1.Text = "Descripción";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(375, 158);
+            this.textBox1.Location = new System.Drawing.Point(281, 128);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(200, 22);
+            this.textBox1.Size = new System.Drawing.Size(151, 20);
             this.textBox1.TabIndex = 94;
             this.textBox1.Text = "CAMBIO ACEITE DE MOTOR";
             // 
@@ -70,17 +73,19 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(74, 60);
+            this.label9.Location = new System.Drawing.Point(56, 49);
+            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(36, 29);
+            this.label9.Size = new System.Drawing.Size(27, 24);
             this.label9.TabIndex = 93;
             this.label9.Text = "ID";
             // 
             // textBox10
             // 
-            this.textBox10.Location = new System.Drawing.Point(375, 67);
+            this.textBox10.Location = new System.Drawing.Point(281, 54);
+            this.textBox10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(200, 22);
+            this.textBox10.Size = new System.Drawing.Size(151, 20);
             this.textBox10.TabIndex = 92;
             this.textBox10.Text = "1";
             // 
@@ -88,10 +93,9 @@
             // 
             this.pictureBox3.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.pictureBox3.Image = global::ihc.Properties.Resources.go_back_arrow;
-            this.pictureBox3.Location = new System.Drawing.Point(667, 13);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox3.Location = new System.Drawing.Point(500, 11);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(63, 63);
+            this.pictureBox3.Size = new System.Drawing.Size(47, 51);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 97;
             this.pictureBox3.TabStop = false;
@@ -99,10 +103,10 @@
             // 
             // ventanaEditarServicio
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.ClientSize = new System.Drawing.Size(743, 339);
+            this.ClientSize = new System.Drawing.Size(557, 275);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label1);
@@ -110,9 +114,10 @@
             this.Controls.Add(this.label9);
             this.Controls.Add(this.textBox10);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "ventanaEditarServicio";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "ventanaEditarServicio";
+            this.Text = "Editar Servicio";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

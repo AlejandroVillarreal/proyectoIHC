@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ihc.exe" size="18368984">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ihc.exe" size="18390488">
       <assemblyIdentity name="ihc" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>9uG/CYnYbh4qBdKJg/KPt9YRnHULIujALNBotrWkq20=</dsig:DigestValue>
+        <dsig:DigestValue>k5falujm/foZtH2c/ghXZ09XdGFVD3NrY84SunH3cQk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

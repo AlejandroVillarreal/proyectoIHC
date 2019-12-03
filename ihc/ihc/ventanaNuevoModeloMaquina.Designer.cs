@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ventanaNuevoModeloMaquina));
             this.button15 = new System.Windows.Forms.Button();
             this.TextBox4 = new System.Windows.Forms.TextBox();
             this.Label4 = new System.Windows.Forms.Label();
@@ -122,7 +123,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.ClientSize = new System.Drawing.Size(524, 371);
             this.Controls.Add(this.button15);
             this.Controls.Add(this.TextBox4);
@@ -133,8 +134,10 @@
             this.Controls.Add(this.Label2);
             this.Controls.Add(this.TextBox1);
             this.Controls.Add(this.Label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "ventanaNuevoModeloMaquina";
-            this.Text = "ventanaNuevoModeloMaquina";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Nuevo Modelo Maquina";
             this.ResumeLayout(false);
             this.PerformLayout();
 

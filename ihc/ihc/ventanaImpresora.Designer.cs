@@ -36,10 +36,9 @@
             // Button1
             // 
             this.Button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Button1.Location = new System.Drawing.Point(299, 85);
-            this.Button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Button1.Location = new System.Drawing.Point(224, 69);
             this.Button1.Name = "Button1";
-            this.Button1.Size = new System.Drawing.Size(157, 32);
+            this.Button1.Size = new System.Drawing.Size(118, 26);
             this.Button1.TabIndex = 4;
             this.Button1.Text = "Guardar cambios";
             this.Button1.UseVisualStyleBackColor = true;
@@ -51,26 +50,24 @@
             "Brother MFC-J6930 DW",
             "HP Lasser Jet Pro1212 ",
             "PDF"});
-            this.ComboBox1.Location = new System.Drawing.Point(16, 34);
-            this.ComboBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ComboBox1.Location = new System.Drawing.Point(12, 28);
             this.ComboBox1.Name = "ComboBox1";
-            this.ComboBox1.Size = new System.Drawing.Size(420, 24);
+            this.ComboBox1.Size = new System.Drawing.Size(316, 21);
             this.ComboBox1.TabIndex = 3;
             this.ComboBox1.Text = "Seleccionar:";
             // 
             // ventanaImpresora
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.ClientSize = new System.Drawing.Size(485, 149);
+            this.ClientSize = new System.Drawing.Size(364, 121);
             this.Controls.Add(this.Button1);
             this.Controls.Add(this.ComboBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "ventanaImpresora";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "ventanaImpresora";
+            this.Text = "Impresora";
             this.ResumeLayout(false);
 
         }

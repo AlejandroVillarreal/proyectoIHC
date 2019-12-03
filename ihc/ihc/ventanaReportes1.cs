@@ -52,5 +52,11 @@ namespace ihc
             ventanaReportesServicio1 ventanaReportesServicio1 = new ventanaReportesServicio1();
             ventanaReportesServicio1.Show();
         }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
+        {
+            ventanaReportesEquipo1 ventanaReportesEquipo1 = new ventanaReportesEquipo1();
+            ventanaReportesEquipo1.Show();
+        }
     }
 }

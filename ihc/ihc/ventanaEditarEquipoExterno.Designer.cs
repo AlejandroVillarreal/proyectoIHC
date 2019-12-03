@@ -48,21 +48,20 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(645, 389);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button1.Location = new System.Drawing.Point(484, 316);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(149, 39);
+            this.button1.Size = new System.Drawing.Size(112, 32);
             this.button1.TabIndex = 46;
             this.button1.Text = "Guardar";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // TextBox6
             // 
-            this.TextBox6.Location = new System.Drawing.Point(8, 217);
-            this.TextBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TextBox6.Location = new System.Drawing.Point(6, 176);
             this.TextBox6.Multiline = true;
             this.TextBox6.Name = "TextBox6";
-            this.TextBox6.Size = new System.Drawing.Size(692, 141);
+            this.TextBox6.Size = new System.Drawing.Size(520, 115);
             this.TextBox6.TabIndex = 45;
             this.TextBox6.Text = "LE FALLA EL CLUTCH";
             // 
@@ -70,19 +69,17 @@
             // 
             this.Label5.AutoSize = true;
             this.Label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label5.Location = new System.Drawing.Point(293, 183);
-            this.Label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Label5.Location = new System.Drawing.Point(220, 149);
             this.Label5.Name = "Label5";
-            this.Label5.Size = new System.Drawing.Size(150, 29);
+            this.Label5.Size = new System.Drawing.Size(116, 24);
             this.Label5.TabIndex = 44;
             this.Label5.Text = "Comentarios";
             // 
             // TextBox5
             // 
-            this.TextBox5.Location = new System.Drawing.Point(512, 129);
-            this.TextBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TextBox5.Location = new System.Drawing.Point(384, 105);
             this.TextBox5.Name = "TextBox5";
-            this.TextBox5.Size = new System.Drawing.Size(281, 22);
+            this.TextBox5.Size = new System.Drawing.Size(212, 20);
             this.TextBox5.TabIndex = 43;
             this.TextBox5.Text = "EN TALLER";
             // 
@@ -90,19 +87,17 @@
             // 
             this.Label4.AutoSize = true;
             this.Label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label4.Location = new System.Drawing.Point(608, 96);
-            this.Label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Label4.Location = new System.Drawing.Point(456, 78);
             this.Label4.Name = "Label4";
-            this.Label4.Size = new System.Drawing.Size(91, 29);
+            this.Label4.Size = new System.Drawing.Size(70, 24);
             this.Label4.TabIndex = 42;
             this.Label4.Text = "Estatus";
             // 
             // TextBox4
             // 
-            this.TextBox4.Location = new System.Drawing.Point(8, 129);
-            this.TextBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TextBox4.Location = new System.Drawing.Point(6, 105);
             this.TextBox4.Name = "TextBox4";
-            this.TextBox4.Size = new System.Drawing.Size(401, 22);
+            this.TextBox4.Size = new System.Drawing.Size(302, 20);
             this.TextBox4.TabIndex = 41;
             this.TextBox4.Text = "ALLANADORA DOBLE 36\"";
             // 
@@ -110,28 +105,25 @@
             // 
             this.Label3.AutoSize = true;
             this.Label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label3.Location = new System.Drawing.Point(179, 96);
-            this.Label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Label3.Location = new System.Drawing.Point(134, 78);
             this.Label3.Name = "Label3";
-            this.Label3.Size = new System.Drawing.Size(72, 29);
+            this.Label3.Size = new System.Drawing.Size(56, 24);
             this.Label3.TabIndex = 40;
             this.Label3.Text = "Linea";
             // 
             // TextBox3
             // 
-            this.TextBox3.Location = new System.Drawing.Point(389, 64);
-            this.TextBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TextBox3.Location = new System.Drawing.Point(292, 52);
             this.TextBox3.Name = "TextBox3";
-            this.TextBox3.Size = new System.Drawing.Size(404, 22);
+            this.TextBox3.Size = new System.Drawing.Size(304, 20);
             this.TextBox3.TabIndex = 39;
             this.TextBox3.Text = "CEMEX CONCRETOS SAB";
             // 
             // TextBox2
             // 
-            this.TextBox2.Location = new System.Drawing.Point(248, 64);
-            this.TextBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TextBox2.Location = new System.Drawing.Point(186, 52);
             this.TextBox2.Name = "TextBox2";
-            this.TextBox2.Size = new System.Drawing.Size(132, 22);
+            this.TextBox2.Size = new System.Drawing.Size(100, 20);
             this.TextBox2.TabIndex = 38;
             this.TextBox2.Text = "23";
             // 
@@ -139,19 +131,17 @@
             // 
             this.Label2.AutoSize = true;
             this.Label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label2.Location = new System.Drawing.Point(265, 31);
-            this.Label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Label2.Location = new System.Drawing.Point(199, 25);
             this.Label2.Name = "Label2";
-            this.Label2.Size = new System.Drawing.Size(89, 29);
+            this.Label2.Size = new System.Drawing.Size(68, 24);
             this.Label2.TabIndex = 37;
             this.Label2.Text = "Cliente";
             // 
             // TextBox1
             // 
-            this.TextBox1.Location = new System.Drawing.Point(8, 64);
-            this.TextBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TextBox1.Location = new System.Drawing.Point(6, 52);
             this.TextBox1.Name = "TextBox1";
-            this.TextBox1.Size = new System.Drawing.Size(165, 22);
+            this.TextBox1.Size = new System.Drawing.Size(125, 20);
             this.TextBox1.TabIndex = 36;
             this.TextBox1.Text = "57345";
             // 
@@ -159,20 +149,18 @@
             // 
             this.Label1.AutoSize = true;
             this.Label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label1.Location = new System.Drawing.Point(4, 31);
-            this.Label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Label1.Location = new System.Drawing.Point(3, 25);
             this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(164, 29);
+            this.Label1.Size = new System.Drawing.Size(128, 24);
             this.Label1.TabIndex = 35;
             this.Label1.Text = "Numero Serie";
             // 
             // pictureBox3
             // 
             this.pictureBox3.Image = global::ihc.Properties.Resources.go_back_arrow;
-            this.pictureBox3.Location = new System.Drawing.Point(743, 9);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox3.Location = new System.Drawing.Point(557, 7);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(51, 47);
+            this.pictureBox3.Size = new System.Drawing.Size(38, 38);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 74;
             this.pictureBox3.TabStop = false;
@@ -180,10 +168,10 @@
             // 
             // ventanaEditarEquipoExterno
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.ClientSize = new System.Drawing.Size(805, 469);
+            this.ClientSize = new System.Drawing.Size(604, 381);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.TextBox6);
@@ -198,10 +186,9 @@
             this.Controls.Add(this.TextBox1);
             this.Controls.Add(this.Label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "ventanaEditarEquipoExterno";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "ventanaEditarEquipoExterno";
+            this.Text = "Editar Equipo Externo";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -43,10 +43,9 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(457, 250);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(343, 203);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(410, 36);
+            this.label2.Size = new System.Drawing.Size(256, 24);
             this.label2.TabIndex = 27;
             this.label2.Text = "Consulta de Servicios Activos";
             // 
@@ -54,20 +53,18 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(30, 254);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(22, 206);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(468, 36);
+            this.label1.Size = new System.Drawing.Size(291, 24);
             this.label1.TabIndex = 26;
             this.label1.Text = "Consulta de Servicios Pendientes";
             // 
             // pictureBox2
             // 
             this.pictureBox2.Image = global::ihc.Properties.Resources.pending;
-            this.pictureBox2.Location = new System.Drawing.Point(96, 88);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox2.Location = new System.Drawing.Point(72, 72);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(150, 150);
+            this.pictureBox2.Size = new System.Drawing.Size(112, 122);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 25;
             this.pictureBox2.TabStop = false;
@@ -76,10 +73,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::ihc.Properties.Resources.file__8_;
-            this.pictureBox1.Location = new System.Drawing.Point(545, 101);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Location = new System.Drawing.Point(409, 82);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(150, 150);
+            this.pictureBox1.Size = new System.Drawing.Size(112, 122);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 24;
             this.pictureBox1.TabStop = false;
@@ -88,10 +84,9 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::ihc.Properties.Resources.go_back_arrow;
-            this.pictureBox3.Location = new System.Drawing.Point(764, 13);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox3.Location = new System.Drawing.Point(573, 11);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(75, 62);
+            this.pictureBox3.Size = new System.Drawing.Size(56, 50);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 23;
             this.pictureBox3.TabStop = false;
@@ -99,20 +94,19 @@
             // 
             // ventanaReportesServicio1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(890, 354);
+            this.ClientSize = new System.Drawing.Size(668, 288);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox3);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "ventanaReportesServicio1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "ventanaReportesServicio1";
+            this.Text = "Reportes Servicio";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();

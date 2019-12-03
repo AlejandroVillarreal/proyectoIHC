@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ventanaSucursales));
             this.Button4 = new System.Windows.Forms.Button();
             this.Button3 = new System.Windows.Forms.Button();
             this.Button2 = new System.Windows.Forms.Button();
@@ -55,10 +56,9 @@
             // Button4
             // 
             this.Button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Button4.Location = new System.Drawing.Point(136, 421);
-            this.Button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Button4.Location = new System.Drawing.Point(102, 342);
             this.Button4.Name = "Button4";
-            this.Button4.Size = new System.Drawing.Size(159, 37);
+            this.Button4.Size = new System.Drawing.Size(119, 30);
             this.Button4.TabIndex = 9;
             this.Button4.Text = "Suspender";
             this.Button4.UseVisualStyleBackColor = true;
@@ -67,10 +67,9 @@
             // Button3
             // 
             this.Button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Button3.Location = new System.Drawing.Point(347, 421);
-            this.Button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Button3.Location = new System.Drawing.Point(260, 342);
             this.Button3.Name = "Button3";
-            this.Button3.Size = new System.Drawing.Size(100, 34);
+            this.Button3.Size = new System.Drawing.Size(75, 28);
             this.Button3.TabIndex = 8;
             this.Button3.Text = "Nuevo";
             this.Button3.UseVisualStyleBackColor = true;
@@ -79,10 +78,9 @@
             // Button2
             // 
             this.Button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Button2.Location = new System.Drawing.Point(16, 422);
-            this.Button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Button2.Location = new System.Drawing.Point(12, 343);
             this.Button2.Name = "Button2";
-            this.Button2.Size = new System.Drawing.Size(91, 36);
+            this.Button2.Size = new System.Drawing.Size(68, 29);
             this.Button2.TabIndex = 7;
             this.Button2.Text = "Editar";
             this.Button2.UseVisualStyleBackColor = true;
@@ -92,21 +90,19 @@
             // 
             this.TabControl1.Controls.Add(this.TabPage1);
             this.TabControl1.Controls.Add(this.TabPage2);
-            this.TabControl1.Location = new System.Drawing.Point(16, 15);
-            this.TabControl1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TabControl1.Location = new System.Drawing.Point(12, 12);
             this.TabControl1.Name = "TabControl1";
             this.TabControl1.SelectedIndex = 0;
-            this.TabControl1.Size = new System.Drawing.Size(436, 383);
+            this.TabControl1.Size = new System.Drawing.Size(327, 311);
             this.TabControl1.TabIndex = 5;
             // 
             // TabPage1
             // 
             this.TabPage1.Controls.Add(this.DataGridView1);
-            this.TabPage1.Location = new System.Drawing.Point(4, 25);
-            this.TabPage1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TabPage1.Location = new System.Drawing.Point(4, 22);
             this.TabPage1.Name = "TabPage1";
-            this.TabPage1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.TabPage1.Size = new System.Drawing.Size(428, 354);
+            this.TabPage1.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.TabPage1.Size = new System.Drawing.Size(319, 285);
             this.TabPage1.TabIndex = 0;
             this.TabPage1.Text = "Listado";
             this.TabPage1.UseVisualStyleBackColor = true;
@@ -119,11 +115,10 @@
             this.idDataGridViewTextBoxColumn,
             this.sucursalDataGridViewTextBoxColumn});
             this.DataGridView1.DataSource = this.sucursalesBindingSource;
-            this.DataGridView1.Location = new System.Drawing.Point(39, 52);
-            this.DataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.DataGridView1.Location = new System.Drawing.Point(29, 42);
             this.DataGridView1.Name = "DataGridView1";
             this.DataGridView1.RowHeadersWidth = 51;
-            this.DataGridView1.Size = new System.Drawing.Size(341, 249);
+            this.DataGridView1.Size = new System.Drawing.Size(256, 202);
             this.DataGridView1.TabIndex = 0;
             // 
             // idDataGridViewTextBoxColumn
@@ -157,21 +152,19 @@
             this.TabPage2.Controls.Add(this.Button5);
             this.TabPage2.Controls.Add(this.Label1);
             this.TabPage2.Controls.Add(this.TextBox1);
-            this.TabPage2.Location = new System.Drawing.Point(4, 25);
-            this.TabPage2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TabPage2.Location = new System.Drawing.Point(4, 22);
             this.TabPage2.Name = "TabPage2";
-            this.TabPage2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.TabPage2.Size = new System.Drawing.Size(428, 354);
+            this.TabPage2.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.TabPage2.Size = new System.Drawing.Size(319, 285);
             this.TabPage2.TabIndex = 1;
             this.TabPage2.Text = "Detalle";
             this.TabPage2.UseVisualStyleBackColor = true;
             // 
             // Button5
             // 
-            this.Button5.Location = new System.Drawing.Point(127, 116);
-            this.Button5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Button5.Location = new System.Drawing.Point(95, 94);
             this.Button5.Name = "Button5";
-            this.Button5.Size = new System.Drawing.Size(108, 28);
+            this.Button5.Size = new System.Drawing.Size(81, 23);
             this.Button5.TabIndex = 5;
             this.Button5.Text = "Guardar";
             this.Button5.UseVisualStyleBackColor = true;
@@ -179,20 +172,18 @@
             // Label1
             // 
             this.Label1.AutoSize = true;
-            this.Label1.Location = new System.Drawing.Point(111, 60);
-            this.Label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Label1.Location = new System.Drawing.Point(83, 49);
             this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(137, 17);
+            this.Label1.Size = new System.Drawing.Size(103, 13);
             this.Label1.TabIndex = 1;
             this.Label1.Text = "Nombre de Sucursal";
             // 
             // TextBox1
             // 
             this.TextBox1.Enabled = false;
-            this.TextBox1.Location = new System.Drawing.Point(55, 84);
-            this.TextBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TextBox1.Location = new System.Drawing.Point(41, 68);
             this.TextBox1.Name = "TextBox1";
-            this.TextBox1.Size = new System.Drawing.Size(244, 22);
+            this.TextBox1.Size = new System.Drawing.Size(184, 20);
             this.TextBox1.TabIndex = 0;
             this.TextBox1.Text = "Guadalajara";
             // 
@@ -202,17 +193,17 @@
             // 
             // ventanaSucursales
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.ClientSize = new System.Drawing.Size(468, 554);
+            this.ClientSize = new System.Drawing.Size(351, 450);
             this.Controls.Add(this.Button3);
             this.Controls.Add(this.TabControl1);
             this.Controls.Add(this.Button4);
             this.Controls.Add(this.Button2);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "ventanaSucursales";
-            this.Text = "ventanaSucursales";
+            this.Text = "Sucursales";
             this.Load += new System.EventHandler(this.ventanaSucursales_Load);
             this.TabControl1.ResumeLayout(false);
             this.TabPage1.ResumeLayout(false);

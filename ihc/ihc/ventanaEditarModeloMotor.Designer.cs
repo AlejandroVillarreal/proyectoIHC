@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ventanaEditarModeloMotor));
             this.button2 = new System.Windows.Forms.Button();
             this.TextBox2 = new System.Windows.Forms.TextBox();
             this.Label2 = new System.Windows.Forms.Label();
@@ -86,15 +87,17 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.ClientSize = new System.Drawing.Size(444, 301);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.TextBox2);
             this.Controls.Add(this.Label2);
             this.Controls.Add(this.TextBox1);
             this.Controls.Add(this.Label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "ventanaEditarModeloMotor";
-            this.Text = "ventanaEditarModeloMotor";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Editar Modelo de Motor";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -37,10 +37,9 @@
             // 
             // Button1
             // 
-            this.Button1.Location = new System.Drawing.Point(321, 98);
-            this.Button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Button1.Location = new System.Drawing.Point(241, 80);
             this.Button1.Name = "Button1";
-            this.Button1.Size = new System.Drawing.Size(132, 28);
+            this.Button1.Size = new System.Drawing.Size(99, 23);
             this.Button1.TabIndex = 14;
             this.Button1.Text = "Importar";
             this.Button1.UseVisualStyleBackColor = true;
@@ -48,10 +47,9 @@
             // 
             // Button2
             // 
-            this.Button2.Location = new System.Drawing.Point(388, 22);
-            this.Button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Button2.Location = new System.Drawing.Point(291, 18);
             this.Button2.Name = "Button2";
-            this.Button2.Size = new System.Drawing.Size(65, 28);
+            this.Button2.Size = new System.Drawing.Size(49, 23);
             this.Button2.TabIndex = 13;
             this.Button2.Text = "Buscar";
             this.Button2.UseVisualStyleBackColor = true;
@@ -60,36 +58,33 @@
             // DateTimePicker1
             // 
             this.DateTimePicker1.Enabled = false;
-            this.DateTimePicker1.Location = new System.Drawing.Point(33, 102);
-            this.DateTimePicker1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.DateTimePicker1.Location = new System.Drawing.Point(25, 83);
             this.DateTimePicker1.Name = "DateTimePicker1";
-            this.DateTimePicker1.Size = new System.Drawing.Size(264, 22);
+            this.DateTimePicker1.Size = new System.Drawing.Size(199, 20);
             this.DateTimePicker1.TabIndex = 12;
             // 
             // TextBox1
             // 
-            this.TextBox1.Location = new System.Drawing.Point(33, 26);
-            this.TextBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TextBox1.Location = new System.Drawing.Point(25, 21);
             this.TextBox1.Name = "TextBox1";
-            this.TextBox1.Size = new System.Drawing.Size(332, 22);
+            this.TextBox1.Size = new System.Drawing.Size(250, 20);
             this.TextBox1.TabIndex = 11;
             this.TextBox1.Text = "C:\\Users\\Victor Rodriguez\\source\\repos\\ICCE\\bd..";
             // 
             // ventanaImportarInformacion
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.ClientSize = new System.Drawing.Size(485, 149);
+            this.ClientSize = new System.Drawing.Size(364, 121);
             this.Controls.Add(this.Button1);
             this.Controls.Add(this.Button2);
             this.Controls.Add(this.DateTimePicker1);
             this.Controls.Add(this.TextBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "ventanaImportarInformacion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "ventanaImportarInformacion";
+            this.Text = "Importar Informacion";
             this.ResumeLayout(false);
             this.PerformLayout();
 
