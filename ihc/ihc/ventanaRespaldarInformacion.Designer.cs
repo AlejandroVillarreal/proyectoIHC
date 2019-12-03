@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ventanaRespaldarInformacion));
             this.TextBox1 = new System.Windows.Forms.TextBox();
             this.DateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.Button2 = new System.Windows.Forms.Button();
@@ -36,25 +37,28 @@
             // 
             // TextBox1
             // 
-            this.TextBox1.Location = new System.Drawing.Point(22, 27);
+            this.TextBox1.Location = new System.Drawing.Point(29, 33);
+            this.TextBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TextBox1.Name = "TextBox1";
-            this.TextBox1.Size = new System.Drawing.Size(250, 20);
+            this.TextBox1.Size = new System.Drawing.Size(332, 22);
             this.TextBox1.TabIndex = 3;
             this.TextBox1.Text = "C:\\Users\\Victor Rodriguez\\source\\repos\\ICCE\\bd..";
             // 
             // DateTimePicker1
             // 
             this.DateTimePicker1.Enabled = false;
-            this.DateTimePicker1.Location = new System.Drawing.Point(22, 89);
+            this.DateTimePicker1.Location = new System.Drawing.Point(29, 110);
+            this.DateTimePicker1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.DateTimePicker1.Name = "DateTimePicker1";
-            this.DateTimePicker1.Size = new System.Drawing.Size(199, 20);
+            this.DateTimePicker1.Size = new System.Drawing.Size(264, 22);
             this.DateTimePicker1.TabIndex = 4;
             // 
             // Button2
             // 
-            this.Button2.Location = new System.Drawing.Point(288, 24);
+            this.Button2.Location = new System.Drawing.Point(384, 30);
+            this.Button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Button2.Name = "Button2";
-            this.Button2.Size = new System.Drawing.Size(49, 23);
+            this.Button2.Size = new System.Drawing.Size(65, 28);
             this.Button2.TabIndex = 5;
             this.Button2.Text = "Buscar";
             this.Button2.UseVisualStyleBackColor = true;
@@ -62,9 +66,10 @@
             // 
             // Button1
             // 
-            this.Button1.Location = new System.Drawing.Point(238, 86);
+            this.Button1.Location = new System.Drawing.Point(317, 106);
+            this.Button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Button1.Name = "Button1";
-            this.Button1.Size = new System.Drawing.Size(99, 23);
+            this.Button1.Size = new System.Drawing.Size(132, 28);
             this.Button1.TabIndex = 6;
             this.Button1.Text = "Guardar";
             this.Button1.UseVisualStyleBackColor = true;
@@ -72,15 +77,18 @@
             // 
             // ventanaRespaldarInformacion
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(364, 121);
+            this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.ClientSize = new System.Drawing.Size(485, 149);
             this.Controls.Add(this.Button1);
             this.Controls.Add(this.Button2);
             this.Controls.Add(this.DateTimePicker1);
             this.Controls.Add(this.TextBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "ventanaRespaldarInformacion";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ventanaRespaldarInformacion";
             this.ResumeLayout(false);
             this.PerformLayout();

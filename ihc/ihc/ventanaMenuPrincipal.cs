@@ -15,6 +15,7 @@ namespace ihc
         public ventanaMenuPrincipal()
         {
             InitializeComponent();
+            this.Size = Screen.PrimaryScreen.WorkingArea.Size;
         }
 
         private void ToolStripLabel1_Click(object sender, EventArgs e)
@@ -32,16 +33,12 @@ namespace ihc
 
         private void RealizarRentaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Form4 form4 = new Form4();
-            form4.Show();
+            
         }
 
         private void AdministrarClientesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Form5 form5 = new Form5();
-            form5.Show();
+           
         }
 
         private void PictureBox1_Click(object sender, EventArgs e)
@@ -54,56 +51,73 @@ namespace ihc
         private void PictureBox2_Click(object sender, EventArgs e)
         {
            
-            ventanaClientes ventanaClientes = new ventanaClientes();
-            ventanaClientes.Show();
+            ventanaClientes form21 = new ventanaClientes();
+            form21.Show();
         }
 
         private void PictureBox4_Click(object sender, EventArgs e)
         {
             
-            ventanaServicios ventanaServicios = new ventanaServicios();
-            ventanaServicios.Show();
+            ventanaServicios form8 = new ventanaServicios();
+            form8.Show();
         }
 
         private void PictureBox3_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Form7 form7 = new Form7();
-            form7.Show();
+            
+            ventanaConsultaUsuario ventanaConsultaUsuario = new ventanaConsultaUsuario();
+            ventanaConsultaUsuario.Show();
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
-            ventanaContratos ventanaContratos = new ventanaContratos();
-            ventanaContratos.Show();
+            ventanaContratos form9 = new ventanaContratos();
+            form9.Show();
 
         }
 
         private void pictureBox6_Click(object sender, EventArgs e)
         {
-            ventanaReportes ventanaReportes = new ventanaReportes();
-            ventanaReportes.Show();
+            ventanaReportes1 form10 = new ventanaReportes1();
+            form10.Show();
         }
 
         private void pictureBox7_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Form11 form11 = new Form11();
+            
+            ventanaProcesos form11 = new ventanaProcesos();
             form11.Show();
         }
 
         private void cerrarSesionToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form1 form1 = new Form1();
+            ventanaLogin form1 = new ventanaLogin();
             form1.Show();
         }
 
         private void pictureBox8_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form1 form1 = new Form1();
+            ventanaLogin form1 = new ventanaLogin();
             form1.Show();
+        }
+
+        private void pictureBox9_Click(object sender, EventArgs e)
+        {
+            ventanaConfiguracion ventanaConfiguracion = new ventanaConfiguracion();
+            ventanaConfiguracion.Show();
+        }
+
+        private void pictureBox10_Click(object sender, EventArgs e)
+        {
+            ventanaAyuda ventanaAyuda = new ventanaAyuda();
+            ventanaAyuda.Show();
+        }
+
+        private void ventanaMenuPrincipal_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

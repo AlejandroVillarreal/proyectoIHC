@@ -38,33 +38,17 @@ namespace ihc
     MessageBoxButtons.OK,
     MessageBoxIcon.Exclamation,
     MessageBoxDefaultButton.Button1);
-
-
-
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             this.Hide();
-        }
-
-        private void TextBox33_TextChanged(object sender, EventArgs e)
-        {
 
         }
 
-        private void Label35_Click(object sender, EventArgs e)
+        private void pictureBox3_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void TextBox35_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Label33_Click(object sender, EventArgs e)
-        {
+            this.Hide();
 
         }
     }

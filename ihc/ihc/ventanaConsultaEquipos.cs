@@ -65,5 +65,10 @@ namespace ihc
             }
 
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
     }
 }

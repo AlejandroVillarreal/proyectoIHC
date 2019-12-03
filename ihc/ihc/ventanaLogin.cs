@@ -25,8 +25,8 @@ namespace ihc
         private void Button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            ventanaMenuPrincipal form3 = new ventanaMenuPrincipal();
-            form3.Show();
+            ventanaMenuPrincipal ventanaMenuPrincipal = new ventanaMenuPrincipal();
+            ventanaMenuPrincipal.Show();
         }
 
         private void Label1_Click(object sender, EventArgs e)
@@ -44,6 +44,15 @@ namespace ihc
         private void ComboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            MessageBox.Show("Su Contraseña se ha Restablezido,verifique su correo electronico .",
+   "Seguridad",
+   MessageBoxButtons.OK,
+   MessageBoxIcon.Exclamation,
+   MessageBoxDefaultButton.Button1);
         }
     }
 }

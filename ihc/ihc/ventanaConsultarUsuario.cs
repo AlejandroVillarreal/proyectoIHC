@@ -67,5 +67,10 @@ namespace ihc
                 case DialogResult.Cancel:; break;
             }
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
     }
 }

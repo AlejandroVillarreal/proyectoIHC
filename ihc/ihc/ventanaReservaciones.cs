@@ -49,5 +49,10 @@ namespace ihc
             ventanaEditarReservacion ventanaEditarReservacion = new ventanaEditarReservacion();
             ventanaEditarReservacion.Show();
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
     }
 }

@@ -27,8 +27,7 @@ namespace ihc
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            ventanaClientes form21 = new ventanaClientes();
-            form21.Show();
+            
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -67,10 +66,15 @@ namespace ihc
         private void button16_Click(object sender, EventArgs e)
         {
             this.Hide();
-            
+           
         }
 
         private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
         {
             this.Hide();
         }

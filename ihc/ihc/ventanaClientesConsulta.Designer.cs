@@ -43,8 +43,6 @@
             this.clientesBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.bdDataSet1 = new ihc.bdDataSet1();
             this.clientesTableAdapter = new ihc.bdDataSet1TableAdapters.ClientesTableAdapter();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.clientesTableAdapter1 = new ihc.bdDataSet1TableAdapters.ClientesTableAdapter();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
@@ -71,14 +69,14 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.clientesBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bdDataSet1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
@@ -96,9 +94,11 @@
             this.cORREODataGridViewTextBoxColumn,
             this.cOMENTARIOSDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.clientesBindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(6, 24);
+            this.dataGridView1.Location = new System.Drawing.Point(8, 30);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(902, 189);
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.Size = new System.Drawing.Size(1203, 233);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -106,55 +106,73 @@
             // 
             this.idDataGridViewTextBoxColumn.DataPropertyName = "Id";
             this.idDataGridViewTextBoxColumn.HeaderText = "Id";
+            this.idDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.idDataGridViewTextBoxColumn.Name = "idDataGridViewTextBoxColumn";
+            this.idDataGridViewTextBoxColumn.Width = 125;
             // 
             // razonSocialDataGridViewTextBoxColumn
             // 
             this.razonSocialDataGridViewTextBoxColumn.DataPropertyName = "Razon Social";
             this.razonSocialDataGridViewTextBoxColumn.HeaderText = "Razon Social";
+            this.razonSocialDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.razonSocialDataGridViewTextBoxColumn.Name = "razonSocialDataGridViewTextBoxColumn";
+            this.razonSocialDataGridViewTextBoxColumn.Width = 125;
             // 
             // rFCDataGridViewTextBoxColumn
             // 
             this.rFCDataGridViewTextBoxColumn.DataPropertyName = "RFC";
             this.rFCDataGridViewTextBoxColumn.HeaderText = "RFC";
+            this.rFCDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.rFCDataGridViewTextBoxColumn.Name = "rFCDataGridViewTextBoxColumn";
+            this.rFCDataGridViewTextBoxColumn.Width = 125;
             // 
             // tELEFONODataGridViewTextBoxColumn
             // 
             this.tELEFONODataGridViewTextBoxColumn.DataPropertyName = "TELEFONO";
             this.tELEFONODataGridViewTextBoxColumn.HeaderText = "TELEFONO";
+            this.tELEFONODataGridViewTextBoxColumn.MinimumWidth = 6;
             this.tELEFONODataGridViewTextBoxColumn.Name = "tELEFONODataGridViewTextBoxColumn";
+            this.tELEFONODataGridViewTextBoxColumn.Width = 125;
             // 
             // dIRECCIONDataGridViewTextBoxColumn
             // 
             this.dIRECCIONDataGridViewTextBoxColumn.DataPropertyName = "DIRECCION";
             this.dIRECCIONDataGridViewTextBoxColumn.HeaderText = "DIRECCION";
+            this.dIRECCIONDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.dIRECCIONDataGridViewTextBoxColumn.Name = "dIRECCIONDataGridViewTextBoxColumn";
+            this.dIRECCIONDataGridViewTextBoxColumn.Width = 125;
             // 
             // nOMBREDECONTACTODataGridViewTextBoxColumn
             // 
             this.nOMBREDECONTACTODataGridViewTextBoxColumn.DataPropertyName = "NOMBRE DE CONTACTO";
             this.nOMBREDECONTACTODataGridViewTextBoxColumn.HeaderText = "NOMBRE DE CONTACTO";
+            this.nOMBREDECONTACTODataGridViewTextBoxColumn.MinimumWidth = 6;
             this.nOMBREDECONTACTODataGridViewTextBoxColumn.Name = "nOMBREDECONTACTODataGridViewTextBoxColumn";
+            this.nOMBREDECONTACTODataGridViewTextBoxColumn.Width = 125;
             // 
             // pAGINAWEBDataGridViewTextBoxColumn
             // 
             this.pAGINAWEBDataGridViewTextBoxColumn.DataPropertyName = "PAGINA WEB";
             this.pAGINAWEBDataGridViewTextBoxColumn.HeaderText = "PAGINA WEB";
+            this.pAGINAWEBDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.pAGINAWEBDataGridViewTextBoxColumn.Name = "pAGINAWEBDataGridViewTextBoxColumn";
+            this.pAGINAWEBDataGridViewTextBoxColumn.Width = 125;
             // 
             // cORREODataGridViewTextBoxColumn
             // 
             this.cORREODataGridViewTextBoxColumn.DataPropertyName = "CORREO";
             this.cORREODataGridViewTextBoxColumn.HeaderText = "CORREO";
+            this.cORREODataGridViewTextBoxColumn.MinimumWidth = 6;
             this.cORREODataGridViewTextBoxColumn.Name = "cORREODataGridViewTextBoxColumn";
+            this.cORREODataGridViewTextBoxColumn.Width = 125;
             // 
             // cOMENTARIOSDataGridViewTextBoxColumn
             // 
             this.cOMENTARIOSDataGridViewTextBoxColumn.DataPropertyName = "COMENTARIOS";
             this.cOMENTARIOSDataGridViewTextBoxColumn.HeaderText = "COMENTARIOS";
+            this.cOMENTARIOSDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.cOMENTARIOSDataGridViewTextBoxColumn.Name = "cOMENTARIOSDataGridViewTextBoxColumn";
+            this.cOMENTARIOSDataGridViewTextBoxColumn.Width = 125;
             // 
             // clientesBindingSource
             // 
@@ -170,32 +188,6 @@
             // 
             this.clientesTableAdapter.ClearBeforeFill = true;
             // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox7.Image = global::ihc.Properties.Resources.casa;
-            this.pictureBox7.Location = new System.Drawing.Point(11, 11);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(38, 41);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox7.TabIndex = 19;
-            this.pictureBox7.TabStop = false;
-            this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(901, 11);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(48, 41);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 18;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
             // clientesTableAdapter1
             // 
             this.clientesTableAdapter1.ClearBeforeFill = true;
@@ -204,10 +196,11 @@
             // 
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Location = new System.Drawing.Point(36, 57);
+            this.tabControl1.Location = new System.Drawing.Point(48, 70);
+            this.tabControl1.Margin = new System.Windows.Forms.Padding(4);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(981, 358);
+            this.tabControl1.Size = new System.Drawing.Size(1308, 441);
             this.tabControl1.TabIndex = 20;
             // 
             // tabPage1
@@ -216,10 +209,11 @@
             this.tabPage1.Controls.Add(this.button15);
             this.tabPage1.Controls.Add(this.button14);
             this.tabPage1.Controls.Add(this.dataGridView1);
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Location = new System.Drawing.Point(4, 25);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(973, 332);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(4);
+            this.tabPage1.Size = new System.Drawing.Size(1300, 412);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Listado";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -227,10 +221,10 @@
             // button16
             // 
             this.button16.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button16.Location = new System.Drawing.Point(598, 260);
-            this.button16.Margin = new System.Windows.Forms.Padding(2);
+            this.button16.Location = new System.Drawing.Point(797, 320);
+            this.button16.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(112, 32);
+            this.button16.Size = new System.Drawing.Size(149, 39);
             this.button16.TabIndex = 32;
             this.button16.Text = "Cancelar";
             this.button16.UseVisualStyleBackColor = true;
@@ -239,10 +233,10 @@
             // button15
             // 
             this.button15.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button15.Location = new System.Drawing.Point(370, 260);
-            this.button15.Margin = new System.Windows.Forms.Padding(2);
+            this.button15.Location = new System.Drawing.Point(493, 320);
+            this.button15.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(112, 32);
+            this.button15.Size = new System.Drawing.Size(149, 39);
             this.button15.TabIndex = 31;
             this.button15.Text = "Editar";
             this.button15.UseVisualStyleBackColor = true;
@@ -251,10 +245,10 @@
             // button14
             // 
             this.button14.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button14.Location = new System.Drawing.Point(113, 260);
-            this.button14.Margin = new System.Windows.Forms.Padding(2);
+            this.button14.Location = new System.Drawing.Point(151, 320);
+            this.button14.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(112, 32);
+            this.button14.Size = new System.Drawing.Size(149, 39);
             this.button14.TabIndex = 30;
             this.button14.Text = "Nuevo";
             this.button14.UseVisualStyleBackColor = true;
@@ -281,10 +275,11 @@
             this.tabPage2.Controls.Add(this.label4);
             this.tabPage2.Controls.Add(this.label3);
             this.tabPage2.Controls.Add(this.label2);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Location = new System.Drawing.Point(4, 25);
+            this.tabPage2.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(973, 332);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(4);
+            this.tabPage2.Size = new System.Drawing.Size(1300, 412);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Detalles";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -292,10 +287,10 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(502, 287);
-            this.button2.Margin = new System.Windows.Forms.Padding(2);
+            this.button2.Location = new System.Drawing.Point(669, 353);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(112, 32);
+            this.button2.Size = new System.Drawing.Size(149, 39);
             this.button2.TabIndex = 102;
             this.button2.Text = "Guardar";
             this.button2.UseVisualStyleBackColor = true;
@@ -304,10 +299,11 @@
             // textBox9
             // 
             this.textBox9.Font = new System.Drawing.Font("Arial Narrow", 12F);
-            this.textBox9.Location = new System.Drawing.Point(292, 263);
+            this.textBox9.Location = new System.Drawing.Point(389, 324);
+            this.textBox9.Margin = new System.Windows.Forms.Padding(4);
             this.textBox9.Multiline = true;
             this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(195, 56);
+            this.textBox9.Size = new System.Drawing.Size(259, 68);
             this.textBox9.TabIndex = 101;
             // 
             // label9
@@ -315,18 +311,20 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label9.Location = new System.Drawing.Point(158, 288);
+            this.label9.Location = new System.Drawing.Point(211, 354);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(107, 19);
+            this.label9.Size = new System.Drawing.Size(130, 24);
             this.label9.TabIndex = 100;
             this.label9.Text = "Comentarios";
             // 
             // textBox8
             // 
             this.textBox8.Font = new System.Drawing.Font("Arial Narrow", 12F);
-            this.textBox8.Location = new System.Drawing.Point(292, 231);
+            this.textBox8.Location = new System.Drawing.Point(389, 284);
+            this.textBox8.Margin = new System.Windows.Forms.Padding(4);
             this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(195, 26);
+            this.textBox8.Size = new System.Drawing.Size(259, 30);
             this.textBox8.TabIndex = 99;
             // 
             // label8
@@ -334,18 +332,20 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label8.Location = new System.Drawing.Point(167, 239);
+            this.label8.Location = new System.Drawing.Point(223, 294);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(62, 19);
+            this.label8.Size = new System.Drawing.Size(75, 24);
             this.label8.TabIndex = 98;
             this.label8.Text = "Correo";
             // 
             // textBox7
             // 
             this.textBox7.Font = new System.Drawing.Font("Arial Narrow", 12F);
-            this.textBox7.Location = new System.Drawing.Point(292, 199);
+            this.textBox7.Location = new System.Drawing.Point(389, 245);
+            this.textBox7.Margin = new System.Windows.Forms.Padding(4);
             this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(195, 26);
+            this.textBox7.Size = new System.Drawing.Size(259, 30);
             this.textBox7.TabIndex = 97;
             // 
             // label5
@@ -353,18 +353,20 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label5.Location = new System.Drawing.Point(172, 114);
+            this.label5.Location = new System.Drawing.Point(229, 140);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(75, 19);
+            this.label5.Size = new System.Drawing.Size(92, 24);
             this.label5.TabIndex = 96;
             this.label5.Text = "Telefono";
             // 
             // textBox6
             // 
             this.textBox6.Font = new System.Drawing.Font("Arial Narrow", 12F);
-            this.textBox6.Location = new System.Drawing.Point(292, 168);
+            this.textBox6.Location = new System.Drawing.Point(389, 207);
+            this.textBox6.Margin = new System.Windows.Forms.Padding(4);
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(195, 26);
+            this.textBox6.Size = new System.Drawing.Size(259, 30);
             this.textBox6.TabIndex = 95;
             // 
             // label1
@@ -372,50 +374,56 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label1.Location = new System.Drawing.Point(124, 176);
+            this.label1.Location = new System.Drawing.Point(165, 217);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(167, 19);
+            this.label1.Size = new System.Drawing.Size(205, 24);
             this.label1.TabIndex = 94;
             this.label1.Text = "Nombre de Contacto";
             // 
             // textBox5
             // 
             this.textBox5.Font = new System.Drawing.Font("Arial Narrow", 12F);
-            this.textBox5.Location = new System.Drawing.Point(292, 14);
+            this.textBox5.Location = new System.Drawing.Point(389, 17);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(4);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(195, 26);
+            this.textBox5.Size = new System.Drawing.Size(259, 30);
             this.textBox5.TabIndex = 93;
             // 
             // textBox4
             // 
             this.textBox4.Font = new System.Drawing.Font("Arial Narrow", 12F);
-            this.textBox4.Location = new System.Drawing.Point(292, 46);
+            this.textBox4.Location = new System.Drawing.Point(389, 57);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(4);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(195, 26);
+            this.textBox4.Size = new System.Drawing.Size(259, 30);
             this.textBox4.TabIndex = 92;
             // 
             // textBox3
             // 
             this.textBox3.Font = new System.Drawing.Font("Arial Narrow", 12F);
-            this.textBox3.Location = new System.Drawing.Point(292, 75);
+            this.textBox3.Location = new System.Drawing.Point(389, 92);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(4);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(195, 26);
+            this.textBox3.Size = new System.Drawing.Size(259, 30);
             this.textBox3.TabIndex = 91;
             // 
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Arial Narrow", 12F);
-            this.textBox2.Location = new System.Drawing.Point(292, 107);
+            this.textBox2.Location = new System.Drawing.Point(389, 132);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(195, 26);
+            this.textBox2.Size = new System.Drawing.Size(259, 30);
             this.textBox2.TabIndex = 90;
             // 
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Arial Narrow", 12F);
-            this.textBox1.Location = new System.Drawing.Point(292, 136);
+            this.textBox1.Location = new System.Drawing.Point(389, 167);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(195, 26);
+            this.textBox1.Size = new System.Drawing.Size(259, 30);
             this.textBox1.TabIndex = 89;
             // 
             // label7
@@ -423,9 +431,10 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label7.Location = new System.Drawing.Point(167, 207);
+            this.label7.Location = new System.Drawing.Point(223, 255);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(100, 19);
+            this.label7.Size = new System.Drawing.Size(122, 24);
             this.label7.TabIndex = 88;
             this.label7.Text = "Pagina Web";
             // 
@@ -434,9 +443,10 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label6.Location = new System.Drawing.Point(165, 144);
+            this.label6.Location = new System.Drawing.Point(220, 177);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(82, 19);
+            this.label6.Size = new System.Drawing.Size(99, 24);
             this.label6.TabIndex = 87;
             this.label6.Text = "Direccion";
             // 
@@ -445,9 +455,10 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label4.Location = new System.Drawing.Point(167, 46);
+            this.label4.Location = new System.Drawing.Point(223, 57);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(110, 19);
+            this.label4.Size = new System.Drawing.Size(132, 24);
             this.label4.TabIndex = 86;
             this.label4.Text = "Razon Social";
             // 
@@ -456,9 +467,10 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label3.Location = new System.Drawing.Point(167, 75);
+            this.label3.Location = new System.Drawing.Point(223, 92);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(43, 19);
+            this.label3.Size = new System.Drawing.Size(50, 24);
             this.label3.TabIndex = 85;
             this.label3.Text = "RFC";
             // 
@@ -467,33 +479,46 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label2.Location = new System.Drawing.Point(167, 14);
+            this.label2.Location = new System.Drawing.Point(223, 17);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(52, 19);
+            this.label2.Size = new System.Drawing.Size(62, 24);
             this.label2.TabIndex = 84;
             this.label2.Text = "Clave";
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::ihc.Properties.Resources.go_back_arrow;
+            this.pictureBox2.Location = new System.Drawing.Point(1213, 13);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 25;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            // 
             // ventanaClientesConsulta
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(960, 501);
+            this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.ClientSize = new System.Drawing.Size(1280, 617);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.tabControl1);
-            this.Controls.Add(this.pictureBox7);
-            this.Controls.Add(this.pictureBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ventanaClientesConsulta";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Consulta de Clientes";
             this.Load += new System.EventHandler(this.Form22_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.clientesBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bdDataSet1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -513,8 +538,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn pAGINAWEBDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn cORREODataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn cOMENTARIOSDataGridViewTextBoxColumn;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox7;
         private bdDataSet1TableAdapters.ClientesTableAdapter clientesTableAdapter1;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
@@ -541,5 +564,6 @@
         private System.Windows.Forms.Button button16;
         private System.Windows.Forms.Button button15;
         private System.Windows.Forms.Button button14;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

@@ -25,13 +25,13 @@ namespace ihc
         private void pictureBox7_Click(object sender, EventArgs e)
         {
             this.Hide();
-            
+           
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             this.Hide();
-         
+            
         }
 
         private void label4_Click(object sender, EventArgs e)
@@ -66,6 +66,11 @@ namespace ihc
             textBox8.Clear();
             textBox9.Clear();
 
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
         }
     }
     

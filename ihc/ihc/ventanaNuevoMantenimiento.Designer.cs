@@ -52,6 +52,8 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label13
@@ -60,7 +62,7 @@
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.Location = new System.Drawing.Point(139, 399);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(164, 36);
+            this.label13.Size = new System.Drawing.Size(131, 29);
             this.label13.TabIndex = 65;
             this.label13.Text = "Terminado";
             // 
@@ -70,7 +72,7 @@
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.Location = new System.Drawing.Point(886, 266);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(160, 36);
+            this.label11.Size = new System.Drawing.Size(128, 29);
             this.label11.TabIndex = 63;
             this.label11.Text = "Horometro";
             // 
@@ -127,7 +129,7 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(864, 51);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(100, 36);
+            this.label3.Size = new System.Drawing.Size(80, 29);
             this.label3.TabIndex = 53;
             this.label3.Text = "Fecha";
             // 
@@ -266,12 +268,25 @@
             this.textBox3.Size = new System.Drawing.Size(200, 22);
             this.textBox3.TabIndex = 70;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::ihc.Properties.Resources.go_back_arrow;
+            this.pictureBox1.Location = new System.Drawing.Point(1145, 22);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(56, 58);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 86;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // ventanaNuevoMantenimiento
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1265, 682);
+            this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.ClientSize = new System.Drawing.Size(1214, 647);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
@@ -297,8 +312,10 @@
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Name = "ventanaNuevoMantenimiento";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ventanaNuevoMantenimiento";
             this.Load += new System.EventHandler(this.VentanaNuevoMantenimiento_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -330,5 +347,6 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

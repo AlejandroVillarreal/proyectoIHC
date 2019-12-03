@@ -26,8 +26,8 @@ namespace ihc
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             
-            ventanaClientesConsulta ventanaClientesConsulta = new ventanaClientesConsulta();
-            ventanaClientesConsulta.Show();
+            ventanaClientesConsulta form22 = new ventanaClientesConsulta();
+            form22.Show();
         }
 
         private void pictureBox6_Click(object sender, EventArgs e)
@@ -42,11 +42,6 @@ namespace ihc
             
             ventanaModificarCliente ventanaModificarCliente = new ventanaModificarCliente();
             ventanaModificarCliente.Show();
-        }
-
-        private void ventanaClientes_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

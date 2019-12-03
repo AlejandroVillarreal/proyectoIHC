@@ -34,8 +34,7 @@ namespace ihc
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form8 form8 = new Form8();
-            form8.Show();
+            
         }
 
         private void serviciosBindingSource_CurrentChanged(object sender, EventArgs e)
@@ -59,7 +58,7 @@ namespace ihc
         private void button16_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form8 form8 = new Form8();
+            ventanaServicios form8 = new ventanaServicios();
             form8.Show();
         }
 

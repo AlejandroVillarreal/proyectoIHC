@@ -47,8 +47,7 @@ namespace ihc
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            ventanaClientes form21 = new ventanaClientes();
-            form21.Show();
+            
         }
 
         private void pictureBox7_Click(object sender, EventArgs e)
@@ -82,7 +81,6 @@ namespace ihc
                 textBox8.Clear();
                 textBox9.Clear();
             }
-            this.Hide();
         }
     }
 }
