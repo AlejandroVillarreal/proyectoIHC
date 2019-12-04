@@ -26,8 +26,7 @@ namespace ihc
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Datos Guardados  Satisfactoriamente", "Modificacion",
- MessageBoxButtons.OK, MessageBoxIcon.Information);
+            this.Hide();
         }
     }
 }

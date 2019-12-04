@@ -21,5 +21,10 @@ namespace ihc
         {
             this.Hide();
         }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
     }
 }

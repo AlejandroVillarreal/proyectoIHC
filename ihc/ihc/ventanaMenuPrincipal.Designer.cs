@@ -70,7 +70,7 @@
             this.label1.ForeColor = System.Drawing.SystemColors.MenuText;
             this.label1.Location = new System.Drawing.Point(286, 446);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(102, 29);
+            this.label1.Size = new System.Drawing.Size(80, 24);
             this.label1.TabIndex = 6;
             this.label1.Text = "Equipos";
             // 
@@ -81,7 +81,7 @@
             this.label2.ForeColor = System.Drawing.SystemColors.MenuText;
             this.label2.Location = new System.Drawing.Point(664, 446);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(101, 29);
+            this.label2.Size = new System.Drawing.Size(77, 24);
             this.label2.TabIndex = 7;
             this.label2.Text = "Clientes";
             // 
@@ -92,7 +92,7 @@
             this.label3.ForeColor = System.Drawing.SystemColors.MenuText;
             this.label3.Location = new System.Drawing.Point(1089, 835);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(108, 29);
+            this.label3.Size = new System.Drawing.Size(83, 24);
             this.label3.TabIndex = 8;
             this.label3.Text = "Usuarios";
             // 
@@ -103,7 +103,7 @@
             this.label4.ForeColor = System.Drawing.SystemColors.MenuText;
             this.label4.Location = new System.Drawing.Point(1085, 446);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(112, 29);
+            this.label4.Size = new System.Drawing.Size(86, 24);
             this.label4.TabIndex = 9;
             this.label4.Text = "Servicios";
             // 
@@ -114,7 +114,7 @@
             this.label5.ForeColor = System.Drawing.SystemColors.MenuText;
             this.label5.Location = new System.Drawing.Point(1518, 446);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(116, 29);
+            this.label5.Size = new System.Drawing.Size(89, 24);
             this.label5.TabIndex = 10;
             this.label5.Text = "Contratos";
             // 
@@ -125,7 +125,7 @@
             this.label6.ForeColor = System.Drawing.SystemColors.MenuText;
             this.label6.Location = new System.Drawing.Point(286, 835);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(112, 29);
+            this.label6.Size = new System.Drawing.Size(86, 24);
             this.label6.TabIndex = 12;
             this.label6.Text = "Reportes";
             // 
@@ -136,7 +136,7 @@
             this.label7.ForeColor = System.Drawing.SystemColors.MenuText;
             this.label7.Location = new System.Drawing.Point(648, 835);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(115, 29);
+            this.label7.Size = new System.Drawing.Size(89, 24);
             this.label7.TabIndex = 14;
             this.label7.Text = "Procesos";
             // 
@@ -148,7 +148,7 @@
             this.label8.ForeColor = System.Drawing.SystemColors.MenuText;
             this.label8.Location = new System.Drawing.Point(1544, 122);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(162, 29);
+            this.label8.Size = new System.Drawing.Size(125, 24);
             this.label8.TabIndex = 16;
             this.label8.Text = "Cerrar Sesión";
             // 
@@ -167,7 +167,7 @@
             this.label9.ForeColor = System.Drawing.SystemColors.MenuText;
             this.label9.Location = new System.Drawing.Point(1494, 835);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(162, 29);
+            this.label9.Size = new System.Drawing.Size(127, 24);
             this.label9.TabIndex = 18;
             this.label9.Text = "Configuracion";
             // 
@@ -310,7 +310,7 @@
             this.label10.ForeColor = System.Drawing.SystemColors.MenuText;
             this.label10.Location = new System.Drawing.Point(1754, 122);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(79, 29);
+            this.label10.Size = new System.Drawing.Size(64, 24);
             this.label10.TabIndex = 20;
             this.label10.Text = "Ayuda";
             // 
@@ -344,7 +344,6 @@
             this.Name = "ventanaMenuPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menú Principal";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.ventanaMenuPrincipal_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();

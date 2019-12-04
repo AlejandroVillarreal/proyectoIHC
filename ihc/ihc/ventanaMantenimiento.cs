@@ -90,12 +90,57 @@ namespace ihc
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            switch (MessageBox.Show("Desea Eliminar el Registro?", "Confirmacion", MessageBoxButtons.YesNoCancel))
+            {
+                case DialogResult.Yes: MessageBox.Show("Registro Eliminado"); break;
+                case DialogResult.No:; break;
+                case DialogResult.Cancel:; break;
+            }
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             this.Hide();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            switch (MessageBox.Show("Desea Eliminar el Registro?", "Confirmacion", MessageBoxButtons.YesNoCancel))
+            {
+                case DialogResult.Yes: MessageBox.Show("Registro Eliminado"); break;
+                case DialogResult.No:; break;
+                case DialogResult.Cancel:; break;
+            }
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            switch (MessageBox.Show("Desea Eliminar el Registro?", "Confirmacion", MessageBoxButtons.YesNoCancel))
+            {
+                case DialogResult.Yes: MessageBox.Show("Registro Eliminado"); break;
+                case DialogResult.No:; break;
+                case DialogResult.Cancel:; break;
+            }
         }
     }
 }

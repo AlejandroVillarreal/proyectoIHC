@@ -45,5 +45,15 @@ namespace ihc
         {
             this.Hide();
         }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            switch (MessageBox.Show("Desea Eliminar el Registro?", "Confirmacion", MessageBoxButtons.YesNoCancel))
+            {
+                case DialogResult.Yes: MessageBox.Show("Registro Eliminado"); break;
+                case DialogResult.No:; break;
+                case DialogResult.Cancel:; break;
+            }
+        }
     }
 }

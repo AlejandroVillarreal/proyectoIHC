@@ -101,6 +101,7 @@
             this.button4.TabIndex = 31;
             this.button4.Text = "Guardar";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // pictureBox1
             // 

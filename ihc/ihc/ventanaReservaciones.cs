@@ -54,5 +54,15 @@ namespace ihc
         {
             this.Hide();
         }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            switch (MessageBox.Show("Desea Cancelar Esta Reservacion", "Confirmacion", MessageBoxButtons.YesNoCancel))
+            {
+                case DialogResult.Yes: MessageBox.Show("Cancelado"); break;
+                case DialogResult.No:; break;
+                case DialogResult.Cancel:; break;
+            }
+        }
     }
 }

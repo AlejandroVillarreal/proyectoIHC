@@ -46,12 +46,13 @@
             // 
             this.button15.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button15.Location = new System.Drawing.Point(322, 314);
-            this.button15.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button15.Margin = new System.Windows.Forms.Padding(2);
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(112, 32);
             this.button15.TabIndex = 35;
             this.button15.Text = "Guardar";
             this.button15.UseVisualStyleBackColor = true;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
             // 
             // TextBox4
             // 
@@ -59,7 +60,6 @@
             this.TextBox4.Name = "TextBox4";
             this.TextBox4.Size = new System.Drawing.Size(76, 20);
             this.TextBox4.TabIndex = 34;
-            this.TextBox4.Text = "Rafael Orozco";
             // 
             // Label4
             // 
@@ -77,7 +77,6 @@
             this.TextBox3.Name = "TextBox3";
             this.TextBox3.Size = new System.Drawing.Size(76, 20);
             this.TextBox3.TabIndex = 32;
-            this.TextBox3.Text = "100,000";
             // 
             // Label3
             // 
@@ -95,7 +94,6 @@
             this.TextBox2.Name = "TextBox2";
             this.TextBox2.Size = new System.Drawing.Size(279, 20);
             this.TextBox2.TabIndex = 30;
-            this.TextBox2.Text = "Regla Laser S-240";
             // 
             // Label2
             // 
@@ -113,7 +111,6 @@
             this.TextBox1.Name = "TextBox1";
             this.TextBox1.Size = new System.Drawing.Size(76, 20);
             this.TextBox1.TabIndex = 28;
-            this.TextBox1.Text = "00001";
             // 
             // Label1
             // 

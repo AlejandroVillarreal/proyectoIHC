@@ -115,7 +115,7 @@
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.Image = global::ihc.Properties.Resources.carretilla;
             this.pictureBox1.Location = new System.Drawing.Point(41, 40);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(110, 110);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -128,12 +128,13 @@
             this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox3.Image = global::ihc.Properties.Resources.trato;
             this.pictureBox3.Location = new System.Drawing.Point(347, 40);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(110, 110);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 46;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click_1);
             // 
             // ventanaReportes1
             // 
