@@ -40,6 +40,8 @@
             this.pAGINAWEBDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.cORREODataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.cOMENTARIOSDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clientesBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.bdDataSet24 = new ihc.bdDataSet24();
             this.clientesBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.bdDataSet1 = new ihc.bdDataSet1();
             this.clientesTableAdapter = new ihc.bdDataSet1TableAdapters.ClientesTableAdapter();
@@ -70,18 +72,16 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.bdDataSet24 = new ihc.bdDataSet24();
-            this.clientesBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.clientesTableAdapter2 = new ihc.bdDataSet24TableAdapters.ClientesTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clientesBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bdDataSet24)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.clientesBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bdDataSet1)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bdDataSet24)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.clientesBindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
@@ -178,6 +178,16 @@
             this.cOMENTARIOSDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.cOMENTARIOSDataGridViewTextBoxColumn.Name = "cOMENTARIOSDataGridViewTextBoxColumn";
             this.cOMENTARIOSDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // clientesBindingSource1
+            // 
+            this.clientesBindingSource1.DataMember = "Clientes";
+            this.clientesBindingSource1.DataSource = this.bdDataSet24;
+            // 
+            // bdDataSet24
+            // 
+            this.bdDataSet24.DataSetName = "bdDataSet24";
+            this.bdDataSet24.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // clientesBindingSource
             // 
@@ -303,6 +313,7 @@
             // 
             // textBox9
             // 
+            this.textBox9.Enabled = false;
             this.textBox9.Font = new System.Drawing.Font("Arial Narrow", 12F);
             this.textBox9.Location = new System.Drawing.Point(389, 324);
             this.textBox9.Margin = new System.Windows.Forms.Padding(4);
@@ -310,6 +321,7 @@
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(259, 68);
             this.textBox9.TabIndex = 101;
+            this.textBox9.Text = "NINGUNO";
             // 
             // label9
             // 
@@ -325,12 +337,14 @@
             // 
             // textBox8
             // 
+            this.textBox8.Enabled = false;
             this.textBox8.Font = new System.Drawing.Font("Arial Narrow", 12F);
             this.textBox8.Location = new System.Drawing.Point(389, 284);
             this.textBox8.Margin = new System.Windows.Forms.Padding(4);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(259, 30);
             this.textBox8.TabIndex = 99;
+            this.textBox8.Text = "CINFO@ICCE.COM.MX";
             // 
             // label8
             // 
@@ -346,12 +360,14 @@
             // 
             // textBox7
             // 
+            this.textBox7.Enabled = false;
             this.textBox7.Font = new System.Drawing.Font("Arial Narrow", 12F);
             this.textBox7.Location = new System.Drawing.Point(389, 245);
             this.textBox7.Margin = new System.Windows.Forms.Padding(4);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(259, 30);
             this.textBox7.TabIndex = 97;
+            this.textBox7.Text = "WWW.ICCE.COM.MC";
             // 
             // label5
             // 
@@ -367,12 +383,14 @@
             // 
             // textBox6
             // 
+            this.textBox6.Enabled = false;
             this.textBox6.Font = new System.Drawing.Font("Arial Narrow", 12F);
             this.textBox6.Location = new System.Drawing.Point(389, 207);
             this.textBox6.Margin = new System.Windows.Forms.Padding(4);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(259, 30);
             this.textBox6.TabIndex = 95;
+            this.textBox6.Text = "JOSE ZARATE";
             // 
             // label1
             // 
@@ -388,48 +406,59 @@
             // 
             // textBox5
             // 
+            this.textBox5.Enabled = false;
             this.textBox5.Font = new System.Drawing.Font("Arial Narrow", 12F);
             this.textBox5.Location = new System.Drawing.Point(389, 17);
             this.textBox5.Margin = new System.Windows.Forms.Padding(4);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(259, 30);
             this.textBox5.TabIndex = 93;
+            this.textBox5.Text = "1";
             // 
             // textBox4
             // 
+            this.textBox4.Enabled = false;
             this.textBox4.Font = new System.Drawing.Font("Arial Narrow", 12F);
             this.textBox4.Location = new System.Drawing.Point(389, 57);
             this.textBox4.Margin = new System.Windows.Forms.Padding(4);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(259, 30);
             this.textBox4.TabIndex = 92;
+            this.textBox4.Text = "IC CONSTRUCCIONES Y EQUIPOS";
+            this.textBox4.TextChanged += new System.EventHandler(this.TextBox4_TextChanged);
             // 
             // textBox3
             // 
+            this.textBox3.Enabled = false;
             this.textBox3.Font = new System.Drawing.Font("Arial Narrow", 12F);
             this.textBox3.Location = new System.Drawing.Point(389, 92);
             this.textBox3.Margin = new System.Windows.Forms.Padding(4);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(259, 30);
             this.textBox3.TabIndex = 91;
+            this.textBox3.Text = "ICE9204062W2";
             // 
             // textBox2
             // 
+            this.textBox2.Enabled = false;
             this.textBox2.Font = new System.Drawing.Font("Arial Narrow", 12F);
             this.textBox2.Location = new System.Drawing.Point(389, 132);
             this.textBox2.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(259, 30);
             this.textBox2.TabIndex = 90;
+            this.textBox2.Text = "4353647654";
             // 
             // textBox1
             // 
+            this.textBox1.Enabled = false;
             this.textBox1.Font = new System.Drawing.Font("Arial Narrow", 12F);
             this.textBox1.Location = new System.Drawing.Point(389, 167);
             this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(259, 30);
             this.textBox1.TabIndex = 89;
+            this.textBox1.Text = "MONTERERY NUEVO LEON MEXICO";
             // 
             // label7
             // 
@@ -502,16 +531,6 @@
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
-            // bdDataSet24
-            // 
-            this.bdDataSet24.DataSetName = "bdDataSet24";
-            this.bdDataSet24.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // clientesBindingSource1
-            // 
-            this.clientesBindingSource1.DataMember = "Clientes";
-            this.clientesBindingSource1.DataSource = this.bdDataSet24;
-            // 
             // clientesTableAdapter2
             // 
             this.clientesTableAdapter2.ClearBeforeFill = true;
@@ -531,6 +550,8 @@
             this.Text = "Consulta de Clientes";
             this.Load += new System.EventHandler(this.Form22_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clientesBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bdDataSet24)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.clientesBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bdDataSet1)).EndInit();
             this.tabControl1.ResumeLayout(false);
@@ -538,8 +559,6 @@
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bdDataSet24)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.clientesBindingSource1)).EndInit();
             this.ResumeLayout(false);
 
         }

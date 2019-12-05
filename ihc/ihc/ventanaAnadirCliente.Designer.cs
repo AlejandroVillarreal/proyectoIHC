@@ -60,6 +60,7 @@
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(259, 30);
             this.textBox5.TabIndex = 73;
+            this.textBox5.Text = "1";
             // 
             // textBox4
             // 
@@ -69,6 +70,7 @@
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(259, 30);
             this.textBox4.TabIndex = 72;
+            this.textBox4.Text = "IC CONSTRUCCIONES Y EQUIPO";
             // 
             // textBox3
             // 
@@ -78,6 +80,7 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(259, 30);
             this.textBox3.TabIndex = 71;
+            this.textBox3.Text = "ICE9204062W2";
             // 
             // textBox2
             // 
@@ -87,6 +90,7 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(259, 30);
             this.textBox2.TabIndex = 70;
+            this.textBox2.Text = "4353647654";
             // 
             // textBox1
             // 
@@ -96,6 +100,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(259, 30);
             this.textBox1.TabIndex = 69;
+            this.textBox1.Text = "MONTERERY NUEVO LEON MEXICO";
             // 
             // label7
             // 
@@ -167,6 +172,7 @@
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(259, 30);
             this.textBox6.TabIndex = 76;
+            this.textBox6.Text = "JOSE ZARATE";
             // 
             // label1
             // 
@@ -188,6 +194,7 @@
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(259, 30);
             this.textBox7.TabIndex = 78;
+            this.textBox7.Text = "WWW.ICCE.COM.MC";
             // 
             // label5
             // 
@@ -209,6 +216,7 @@
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(259, 30);
             this.textBox8.TabIndex = 80;
+            this.textBox8.Text = "CINFO@ICCE.COM.MX";
             // 
             // label8
             // 
@@ -231,6 +239,7 @@
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(259, 68);
             this.textBox9.TabIndex = 82;
+            this.textBox9.Text = "NINGUNO";
             // 
             // label9
             // 

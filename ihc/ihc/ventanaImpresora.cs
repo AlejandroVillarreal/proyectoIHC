@@ -16,5 +16,10 @@ namespace ihc
         {
             InitializeComponent();
         }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
     }
 }

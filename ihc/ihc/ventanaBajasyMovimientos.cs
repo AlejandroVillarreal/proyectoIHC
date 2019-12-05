@@ -19,8 +19,10 @@ namespace ihc
 
         private void VentanaBajasyMovimientos_Load(object sender, EventArgs e)
         {
+            // TODO: esta línea de código carga datos en la tabla 'bdDataSet26.Bajas_y_Movimientos' Puede moverla o quitarla según sea necesario.
+            this.bajas_y_MovimientosTableAdapter1.Fill(this.bdDataSet26.Bajas_y_Movimientos);
             // TODO: esta línea de código carga datos en la tabla 'bdDataSet10.Bajas_y_Movimientos' Puede moverla o quitarla según sea necesario.
-           // this.bajas_y_MovimientosTableAdapter.Fill(this.bdDataSet10.Bajas_y_Movimientos);
+            // this.bajas_y_MovimientosTableAdapter.Fill(this.bdDataSet10.Bajas_y_Movimientos);
 
         }
 

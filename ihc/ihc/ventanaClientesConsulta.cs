@@ -80,5 +80,10 @@ namespace ihc
         {
             this.Hide();
         }
+
+        private void TextBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
