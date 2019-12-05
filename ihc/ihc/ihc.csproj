@@ -157,6 +157,21 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>bdDataSet22.xsd</DependentUpon>
     </Compile>
+    <Compile Include="bdDataSet23.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bdDataSet23.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="bdDataSet24.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bdDataSet24.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="bdDataSet25.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bdDataSet25.xsd</DependentUpon>
+    </Compile>
     <Compile Include="bdDataSet3.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -1132,6 +1147,39 @@
     </None>
     <None Include="bdDataSet22.xss">
       <DependentUpon>bdDataSet22.xsd</DependentUpon>
+    </None>
+    <None Include="bdDataSet23.xsc">
+      <DependentUpon>bdDataSet23.xsd</DependentUpon>
+    </None>
+    <None Include="bdDataSet23.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>bdDataSet23.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bdDataSet23.xss">
+      <DependentUpon>bdDataSet23.xsd</DependentUpon>
+    </None>
+    <None Include="bdDataSet24.xsc">
+      <DependentUpon>bdDataSet24.xsd</DependentUpon>
+    </None>
+    <None Include="bdDataSet24.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>bdDataSet24.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bdDataSet24.xss">
+      <DependentUpon>bdDataSet24.xsd</DependentUpon>
+    </None>
+    <None Include="bdDataSet25.xsc">
+      <DependentUpon>bdDataSet25.xsd</DependentUpon>
+    </None>
+    <None Include="bdDataSet25.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>bdDataSet25.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bdDataSet25.xss">
+      <DependentUpon>bdDataSet25.xsd</DependentUpon>
     </None>
     <None Include="bdDataSet3.xsc">
       <DependentUpon>bdDataSet3.xsd</DependentUpon>

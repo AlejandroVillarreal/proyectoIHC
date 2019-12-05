@@ -70,6 +70,9 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.bdDataSet24 = new ihc.bdDataSet24();
+            this.clientesBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.clientesTableAdapter2 = new ihc.bdDataSet24TableAdapters.ClientesTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.clientesBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bdDataSet1)).BeginInit();
@@ -77,6 +80,8 @@
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bdDataSet24)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clientesBindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
@@ -93,7 +98,7 @@
             this.pAGINAWEBDataGridViewTextBoxColumn,
             this.cORREODataGridViewTextBoxColumn,
             this.cOMENTARIOSDataGridViewTextBoxColumn});
-            this.dataGridView1.DataSource = this.clientesBindingSource;
+            this.dataGridView1.DataSource = this.clientesBindingSource1;
             this.dataGridView1.Location = new System.Drawing.Point(8, 30);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
@@ -497,6 +502,20 @@
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
+            // bdDataSet24
+            // 
+            this.bdDataSet24.DataSetName = "bdDataSet24";
+            this.bdDataSet24.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // clientesBindingSource1
+            // 
+            this.clientesBindingSource1.DataMember = "Clientes";
+            this.clientesBindingSource1.DataSource = this.bdDataSet24;
+            // 
+            // clientesTableAdapter2
+            // 
+            this.clientesTableAdapter2.ClearBeforeFill = true;
+            // 
             // ventanaClientesConsulta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -519,6 +538,8 @@
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bdDataSet24)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clientesBindingSource1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -565,5 +586,8 @@
         private System.Windows.Forms.Button button15;
         private System.Windows.Forms.Button button14;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private bdDataSet24 bdDataSet24;
+        private System.Windows.Forms.BindingSource clientesBindingSource1;
+        private bdDataSet24TableAdapters.ClientesTableAdapter clientesTableAdapter2;
     }
 }

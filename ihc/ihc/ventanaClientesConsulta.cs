@@ -19,6 +19,8 @@ namespace ihc
 
         private void Form22_Load(object sender, EventArgs e)
         {
+            // TODO: esta línea de código carga datos en la tabla 'bdDataSet24.Clientes' Puede moverla o quitarla según sea necesario.
+            this.clientesTableAdapter2.Fill(this.bdDataSet24.Clientes);
             // TODO: esta línea de código carga datos en la tabla 'bdDataSet1.Clientes' Puede moverla o quitarla según sea necesario.
             //this.clientesTableAdapter.Fill(this.bdDataSet1.Clientes);
 
