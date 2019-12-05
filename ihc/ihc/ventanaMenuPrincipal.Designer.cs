@@ -68,9 +68,9 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.label1.Location = new System.Drawing.Point(286, 446);
+            this.label1.Location = new System.Drawing.Point(76, 366);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(80, 24);
+            this.label1.Size = new System.Drawing.Size(102, 29);
             this.label1.TabIndex = 6;
             this.label1.Text = "Equipos";
             // 
@@ -79,9 +79,9 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.label2.Location = new System.Drawing.Point(664, 446);
+            this.label2.Location = new System.Drawing.Point(383, 366);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(77, 24);
+            this.label2.Size = new System.Drawing.Size(101, 29);
             this.label2.TabIndex = 7;
             this.label2.Text = "Clientes";
             // 
@@ -90,9 +90,9 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.label3.Location = new System.Drawing.Point(1089, 835);
+            this.label3.Location = new System.Drawing.Point(1061, 635);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(83, 24);
+            this.label3.Size = new System.Drawing.Size(108, 29);
             this.label3.TabIndex = 8;
             this.label3.Text = "Usuarios";
             // 
@@ -101,9 +101,9 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.label4.Location = new System.Drawing.Point(1085, 446);
+            this.label4.Location = new System.Drawing.Point(1057, 366);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(86, 24);
+            this.label4.Size = new System.Drawing.Size(112, 29);
             this.label4.TabIndex = 9;
             this.label4.Text = "Servicios";
             // 
@@ -112,9 +112,9 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.label5.Location = new System.Drawing.Point(1518, 446);
+            this.label5.Location = new System.Drawing.Point(726, 366);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(89, 24);
+            this.label5.Size = new System.Drawing.Size(116, 29);
             this.label5.TabIndex = 10;
             this.label5.Text = "Contratos";
             // 
@@ -123,9 +123,9 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.label6.Location = new System.Drawing.Point(286, 835);
+            this.label6.Location = new System.Drawing.Point(76, 632);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(86, 24);
+            this.label6.Size = new System.Drawing.Size(112, 29);
             this.label6.TabIndex = 12;
             this.label6.Text = "Reportes";
             // 
@@ -134,9 +134,9 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.label7.Location = new System.Drawing.Point(648, 835);
+            this.label7.Location = new System.Drawing.Point(369, 635);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(89, 24);
+            this.label7.Size = new System.Drawing.Size(115, 29);
             this.label7.TabIndex = 14;
             this.label7.Text = "Procesos";
             // 
@@ -146,9 +146,9 @@
             this.label8.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.label8.Location = new System.Drawing.Point(1544, 122);
+            this.label8.Location = new System.Drawing.Point(975, 86);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(125, 24);
+            this.label8.Size = new System.Drawing.Size(162, 29);
             this.label8.TabIndex = 16;
             this.label8.Text = "Cerrar Sesión";
             // 
@@ -165,9 +165,9 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.label9.Location = new System.Drawing.Point(1494, 835);
+            this.label9.Location = new System.Drawing.Point(707, 635);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(127, 24);
+            this.label9.Size = new System.Drawing.Size(162, 29);
             this.label9.TabIndex = 18;
             this.label9.Text = "Configuracion";
             // 
@@ -175,7 +175,7 @@
             // 
             this.pictureBox10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox10.Image = global::ihc.Properties.Resources.question;
-            this.pictureBox10.Location = new System.Drawing.Point(1755, 49);
+            this.pictureBox10.Location = new System.Drawing.Point(1186, 13);
             this.pictureBox10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(75, 69);
@@ -188,7 +188,7 @@
             // 
             this.pictureBox9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox9.Image = global::ihc.Properties.Resources.icon;
-            this.pictureBox9.Location = new System.Drawing.Point(1477, 617);
+            this.pictureBox9.Location = new System.Drawing.Point(685, 431);
             this.pictureBox9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(200, 199);
@@ -202,7 +202,7 @@
             this.pictureBox8.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.pictureBox8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox8.Image = global::ihc.Properties.Resources.user;
-            this.pictureBox8.Location = new System.Drawing.Point(1581, 49);
+            this.pictureBox8.Location = new System.Drawing.Point(1012, 13);
             this.pictureBox8.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(75, 69);
@@ -215,7 +215,7 @@
             // 
             this.pictureBox7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox7.Image = global::ihc.Properties.Resources.planificacion;
-            this.pictureBox7.Location = new System.Drawing.Point(614, 617);
+            this.pictureBox7.Location = new System.Drawing.Point(336, 431);
             this.pictureBox7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(200, 199);
@@ -228,7 +228,7 @@
             // 
             this.pictureBox6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox6.Image = global::ihc.Properties.Resources.reportar;
-            this.pictureBox6.Location = new System.Drawing.Point(241, 617);
+            this.pictureBox6.Location = new System.Drawing.Point(38, 431);
             this.pictureBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(200, 199);
@@ -241,7 +241,7 @@
             // 
             this.pictureBox5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox5.Image = global::ihc.Properties.Resources.contrato;
-            this.pictureBox5.Location = new System.Drawing.Point(1477, 234);
+            this.pictureBox5.Location = new System.Drawing.Point(685, 165);
             this.pictureBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(200, 199);
@@ -254,7 +254,7 @@
             // 
             this.pictureBox4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox4.Image = global::ihc.Properties.Resources.coche;
-            this.pictureBox4.Location = new System.Drawing.Point(1049, 234);
+            this.pictureBox4.Location = new System.Drawing.Point(1012, 165);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(200, 199);
@@ -267,7 +267,7 @@
             // 
             this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox3.Image = global::ihc.Properties.Resources.hombre_de_negocios;
-            this.pictureBox3.Location = new System.Drawing.Point(1049, 617);
+            this.pictureBox3.Location = new System.Drawing.Point(1012, 431);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(200, 199);
@@ -280,7 +280,7 @@
             // 
             this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox2.Image = global::ihc.Properties.Resources.trato;
-            this.pictureBox2.Location = new System.Drawing.Point(614, 234);
+            this.pictureBox2.Location = new System.Drawing.Point(336, 165);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(200, 199);
@@ -293,7 +293,7 @@
             // 
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.Image = global::ihc.Properties.Resources.carretilla;
-            this.pictureBox1.Location = new System.Drawing.Point(241, 234);
+            this.pictureBox1.Location = new System.Drawing.Point(38, 165);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(200, 199);
@@ -308,9 +308,9 @@
             this.label10.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.label10.Location = new System.Drawing.Point(1754, 122);
+            this.label10.Location = new System.Drawing.Point(1185, 86);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(64, 24);
+            this.label10.Size = new System.Drawing.Size(79, 29);
             this.label10.TabIndex = 20;
             this.label10.Text = "Ayuda";
             // 
@@ -318,7 +318,7 @@
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1898, 1051);
+            this.ClientSize = new System.Drawing.Size(1262, 673);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.pictureBox10);
             this.Controls.Add(this.label9);
