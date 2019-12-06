@@ -177,6 +177,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>bdDataSet26.xsd</DependentUpon>
     </Compile>
+    <Compile Include="bdDataSet27.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bdDataSet27.xsd</DependentUpon>
+    </Compile>
     <Compile Include="bdDataSet3.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -1196,6 +1201,17 @@
     </None>
     <None Include="bdDataSet26.xss">
       <DependentUpon>bdDataSet26.xsd</DependentUpon>
+    </None>
+    <None Include="bdDataSet27.xsc">
+      <DependentUpon>bdDataSet27.xsd</DependentUpon>
+    </None>
+    <None Include="bdDataSet27.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>bdDataSet27.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bdDataSet27.xss">
+      <DependentUpon>bdDataSet27.xsd</DependentUpon>
     </None>
     <None Include="bdDataSet3.xsc">
       <DependentUpon>bdDataSet3.xsd</DependentUpon>

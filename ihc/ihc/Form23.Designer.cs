@@ -165,7 +165,7 @@
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(149, 39);
             this.button16.TabIndex = 29;
-            this.button16.Text = "Cancelar";
+            this.button16.Text = "Borrar";
             this.button16.UseVisualStyleBackColor = true;
             this.button16.Click += new System.EventHandler(this.button16_Click);
             // 

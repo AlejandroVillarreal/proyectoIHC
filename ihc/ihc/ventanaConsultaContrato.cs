@@ -62,6 +62,8 @@ namespace ihc
 
         private void VentanaConsultaContrato_Load(object sender, EventArgs e)
         {
+            // TODO: esta línea de código carga datos en la tabla 'bdDataSet27.Contratos' Puede moverla o quitarla según sea necesario.
+            this.contratosTableAdapter1.Fill(this.bdDataSet27.Contratos);
             // TODO: esta línea de código carga datos en la tabla 'bdDataSet25.Contratos' Puede moverla o quitarla según sea necesario.
             this.contratosTableAdapter.Fill(this.bdDataSet25.Contratos);
 
